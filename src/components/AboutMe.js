@@ -1,17 +1,13 @@
 import { React, useState, useEffect } from "react";
 import styles from "../css/aboutMe.module.css";
-import Moment from "react-moment";
 
 const AboutMe = () => {
-  
   const [startTimestamp, setStartTimestamp] = useState("January, 10, 2030");
 
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
- 
 
   setInterval(() => {
     setStartTimestamp(timer());
@@ -27,8 +23,7 @@ const AboutMe = () => {
     setMinutes(minutes.toString().replace("-", " "));
     setHours(hours.toString().replace("-", " "));
     setDays(days.toString().replace("-", " "));
-    console.log(days)
-   
+    console.log(days);
   };
 
   return (
@@ -44,8 +39,11 @@ const AboutMe = () => {
         <div className={styles.lightBeam}></div>
 
         <p className={styles.aboutMe}>
-          Hi, I'm Brendan its been <span className={styles.counter}>{days} days {hours} hours {minutes} minutes {seconds} seconds</span> since
-          I decided to pick up my first programming book
+          Hi, I'm Brendan its been{" "}
+          <span className={styles.counter}>
+            {days} days {hours} hours {minutes} minutes {seconds} seconds
+          </span>{" "}
+          since I decided to pick up my first programming book
         </p>
       </div>
     </>

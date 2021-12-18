@@ -47,6 +47,14 @@ const Projects = () => {
           </div>
           <div className={styles.btnBox}>
             <p className={styles.btn}>The Code</p>
+            binoculars.svg
+            <img
+          className={styles.me}
+          src="images/binoculars.svg"
+          alt="Brendan Little"
+          width="180"
+          height="auto"
+        />
             <p className={styles.btn}>The Wild</p>
           </div>
         </div>
