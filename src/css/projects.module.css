@@ -1,0 +1,124 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0em 0 0 0;
+}
+
+#box2 {
+  margin-top: 5em;
+}
+
+.box{  
+  width: 320px;  
+  height: 250px;   
+  position: relative;  
+ 
+}  
+.box .front,  
+.box .back{  
+  position: absolute;  
+  width: 320px;  
+  height: 250px;   
+  background: #131313;
+  color: #fff;
+  backface-visibility: hidden;  
+  transform-style: preserve-3d;  
+  cursor: pointer;   
+  border-radius: 20px;  
+  transition: transform .4s;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}  
+
+.box .back{  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  flex-direction: column;  
+  transform: perspective(800px) rotateX(-180deg);  
+}  
+.box .back p{  
+  margin: 10px 20px;  
+  text-align: center;  
+}  
+.box .front img{  
+  width: 100%;  
+  height: auto;  
+  position: absolute;  
+}  
+.box:hover .front{  
+  transform: perspective(800px) rotateX(180deg);  
+}  
+.box:hover .back{  
+  transform: perspective(800px) rotateX(0);  
+}  
+
+
+
+.starWars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 600px;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 4px;
+  line-height: 1.5;
+  text-align: left;
+  overflow: hidden;
+}
+
+.crawl {
+  position: relative;
+  top: -100px;
+  animation: crawl 9s linear infinite;
+}
+
+@keyframes crawl {
+  0% {
+    top: 250px;
+  }
+  100% {
+    top: -650px;
+  }
+}
+
+.btn {
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: 1px solid rgb(38, 38, 94);
+  border-radius: 10px;
+  padding: 0.5em 1em;
+}
+
+.btnBox {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #box2 {
+    margin-top: 0em;
+  }
+}
