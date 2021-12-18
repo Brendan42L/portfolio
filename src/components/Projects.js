@@ -110,7 +110,7 @@ const Projects = () => {
           </div>
           <div className={styles.btnBox}>
             <p className={styles.btn}>The Code</p>
-            <p className={styles.btn}>The Wild</p>
+            <p className={styles.btn}>The Wild</p>  
           </div>
         </div>
         

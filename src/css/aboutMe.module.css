@@ -26,7 +26,7 @@
   position: absolute;
   overflow: hidden;
   top: -40px;
-  animation: flicker 3s linear infinite;
+  animation: flicker 4s linear infinite;
   z-index: 200;
 }
 
@@ -35,13 +35,14 @@
   padding: 1em 2em 2em 2em;
   font-family: "Lato", sans-serif;
   font-size: 1.1em;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.8;
   text-align: center;
   z-index: -99;
   margin: 1em auto 0 auto;
   width: 45% !important;
+  animation: flicker 4s linear infinite;
 }
 
 @keyframes flicker {
@@ -68,6 +69,14 @@
     text-shadow: none;
   }
 }
+
+
+.counter {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 
 @media (min-width: 347px) {
   .lightBeam {

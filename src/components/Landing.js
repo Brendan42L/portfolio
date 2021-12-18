@@ -7,6 +7,8 @@ import Projects from "./Projects";
 import AboutMe from "./AboutMe";
 import Header from "./Header";
 import Contact from "./Contact";
+import Footer from "./Footer";
+
 
 const Landing = () => {
   window.onbeforeunload = function () {
@@ -14,7 +16,7 @@ const Landing = () => {
   };
 
   return (
-    <div>
+    <>
       <Nav />
       <div className={styles.background} id="home">
         <Header />
@@ -30,10 +32,10 @@ const Landing = () => {
         </Link>
       </div>
       <div className={styles.background2} id="about">
-        <h2 style={{ margin: "2.5em auto 0 auto", opacity: "0.8" }} className={styles.headers}>
+        <h2 style={{ margin: "2.5em auto 0.5em auto", opacity: "0.8" }} className={styles.headers}>
           About Me
         </h2>
-        <hr className={styles.hrNoMargin} />
+        {/* <hr className={styles.hrNoMargin} /> */}
         <AboutMe />
         <Link
           to="technologies"
@@ -94,7 +96,8 @@ const Landing = () => {
           <span className={styles.chevron}></span>
         </Link>
       </div>
-    </div>
+      <Footer/>
+    </>
   );
 };
 
