@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 200;
 }
 
 .lightBeam {
@@ -20,13 +21,13 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 16px 155px 700px 155px;
+  border-width: 10px 155px 885px 155px;
   border-color: transparent transparent #fff5b61c transparent;
   position: absolute;
   overflow: hidden;
-  top: -50px;
+  top: -40px;
   animation: flicker 3s linear infinite;
-  z-index: -99;
+  z-index: 200;
 }
 
 .aboutMe {
@@ -39,7 +40,8 @@
   line-height: 1.8;
   text-align: center;
   z-index: -99;
-  margin: 0.5em auto 0 auto;
+  margin: 1em auto 0 auto;
+  width: 45% !important;
 }
 
 @keyframes flicker {
@@ -67,10 +69,15 @@
   }
 }
 
-@media (min-width: 375px) {
- 
+@media (min-width: 347px) {
   .lightBeam {
-    border-width: 30px 173px 620px 173px;
+    border-width: 30px 173px 850px 173px;
+  }
+}
+
+@media (min-width: 375px) {
+  .lightBeam {
+    border-width: 30px 173px 840px 173px;
   }
 }
 
@@ -80,25 +87,44 @@
   }
 
   .lightBeam {
-    border-width: 30px 200px 630px 200px;
+    border-width: 30px 200px 880px 200px;
+  }
+}
+
+@media (min-width: 475px) {
+  .lightBeam {
+    border-width: 35px 260px 780px 260px;
+  }
+}
+
+@media (min-width: 503px) {
+  .lightBeam {
+    border-width: 35px 260px 720px 260px;
   }
 }
 
 @media (min-width: 514px) {
   .lightBeam {
-    border-width: 35px 260px 590px 260px;
+    border-width: 35px 260px 710px 260px;
+    top: -70px;
+  }
+}
+
+@media (min-width: 574px) {
+  .lightBeam {
+    border-width: 35px 260px 650px 260px;
   }
 }
 
 @media (min-width: 614px) {
   .lightBeam {
-    border-width: 40px 300px 560px 300px;
+    border-width: 40px 300px 640px 300px;
   }
 }
 
-@media (min-width: 714px) {
+@media (min-width: 704px) {
   .lightBeam {
-    border-width: 70px 350px 490px 350px;
+    border-width: 70px 350px 580px 350px;
   }
 
   .aboutMe {
@@ -106,9 +132,21 @@
   }
 }
 
+@media (min-width: 704px) {
+  .lightBeam {
+    border-width: 70px 350px 550px 350px;
+  }
+}
+
 @media (min-width: 814px) {
   .lightBeam {
-    border-width: 60px 400px 480px 400px;
+    border-width: 60px 400px 520px 400px;
+  }
+}
+
+@media (min-width: 875px) {
+  .lightBeam {
+    border-width: 60px 400px 490px 400px;
   }
 }
 
@@ -121,29 +159,44 @@
 @media (min-width: 1000px) {
   .lightBeam {
     border-width: 70px 500px 450px 500px;
+    top: -50px;
   }
 }
 
 @media (min-width: 1100px) {
   .lightBeam {
-    border-width: 70px 550px 430px 550px;
+    border-width: 70px 550px 410px 550px;
   }
 }
 
 @media (min-width: 1200px) {
   .lightBeam {
-    border-width: 70px 600px 420px 600px;
+    border-width: 70px 600px 400px 600px;
   }
+
 }
 
 @media (min-width: 1300px) {
   .lightBeam {
-    border-width: 70px 650px 430px 650px;
+    border-width: 70px 650px 390px 650px;
+    top: -50px;
   }
 }
 
 @media (min-width: 1400px) {
   .lightBeam {
-    border-width: 70px 700px 350px 700px;
+    border-width: 70px 700px 380px 700px;
+    top: -60px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .lightBeam {
+    border-width: 70px 750px 360px 750px;
+  }
+}
+@media (min-width: 1600px) {
+  .lightBeam {
+    border-width: 70px 800px 350px 800px;
   }
 }

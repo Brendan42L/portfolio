@@ -148,11 +148,7 @@
   max-width: 450px;
 }
 
-@media (min-width: 375px) {
-  .background2 {
-    height: 780px;
-  }
-}
+
 
 @media (min-width: 558px) {
   .chevronPostion1 {
@@ -162,23 +158,24 @@
   .chevronPostion3 {
     bottom: 80px;
   }
-  .background2 {
-    height: 750px;
-  }
+
 }
 
 
-@media (min-width: 758px) {
-
-  .background2 {
-    height: 650px;
-  }
-}
 
 
 @media (min-width: 1200px) {
 
   .background2 {
-    height: 600px;
+    height: 500px;
   }
+
+  .chevronPostion2 {
+    bottom: 140px;
+  }
+
+  .chevronPostion3 {
+    bottom: 120px;
+  }
+
 }

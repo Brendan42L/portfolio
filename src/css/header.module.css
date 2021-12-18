@@ -8,8 +8,16 @@
 
 
 
+.blobMain{
+  position: absolute;
+  left: 55%;
+  transform: translate(-55%);
+  top: 80px;
+}
+
 .evoContainer {
   width: 100%;
+  position: relative;
 }
 
 .evo {
@@ -23,6 +31,7 @@
   object-fit: contain;
   opacity: 0.8;
   margin: 2em 0 0 0;
+  
 }
 
 /* Name */
@@ -59,11 +68,6 @@
   stop-color: rgb(255, 255, 255);
 }
 
-.blobMain {
-  position: absolute;
-  top: 200px;
-  right: -80px;
-}
 
 @media (min-width: 375px) {
   .container h2 {
@@ -79,9 +83,25 @@
 }
 
 
+@media (min-width: 558px) {
+  .blobMain{
+  
+    top: -250px;
+
+  }
+  
+}
+
+
+
+
+
+
+
 
 
 @media (min-width: 883px) {
+
   .container h2 {
     font-size: 3.5em;
   }

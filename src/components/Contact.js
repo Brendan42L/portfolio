@@ -11,39 +11,43 @@ const Contact = () => {
   const [response, setResponse] = useState("");
   const [other, setOther] = useState(false);
   const [validation, setValidation] = useState(false);
+  const [once, setOnce] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    if (name && email && phone && message && !other) {
-      emailjs
-        .sendForm(
-          process.env.REACT_APP_SERVICE_ID,
-          process.env.REACT_APP_TEMPLATE_ID,
-          e.target,
-          process.env.REACT_APP_USER_ID
-        )
-        .then(
-          (result) => {
-            setResponse("I'll be in touch soon");
-            setTimeout(() => {
-              setResponse("");
-              setName("");
-              setEmail("");
-              setPhone("");
-              setMessage("");
-            }, 4000);
-          },
-          (error) => {
-            setResponse(error.text);
-            setTimeout(() => {
-              setResponse("");
-            }, 4000);
-          }
-        );
-    } else {
-      setValidation(true);
-      setResponse("Please Don't leave anything blank");
+    if (!once) {
+      if (name && email && phone && message && !other) {
+        setOnce(true);
+        emailjs
+          .sendForm(
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
+            e.target,
+            process.env.REACT_APP_USER_ID
+          )
+          .then(
+            (result) => {
+              setResponse("I'll be in touch soon");
+              setTimeout(() => {
+                setResponse("");
+                setName("");
+                setEmail("");
+                setPhone("");
+                setMessage("");
+              }, 4000);
+            },
+            (error) => {
+              setResponse(error.text);
+              setTimeout(() => {
+                setResponse("");
+                setOnce(false);
+              }, 4000);
+            }
+          );
+      } else {
+        setValidation(true);
+        setResponse("Please Don't leave anything blank");
+      }
     }
   };
 
@@ -80,14 +84,15 @@ const Contact = () => {
   return (
     <>
       <div className={styles.wrapper}>
+        
+
+        <div className={styles.wrapper2}>
         <p className={styles.text}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book.
         </p>
-
-        <div className={styles.wrapper2}>
           <h6 className={styles.cv}>Download my Resume:</h6>
 
           <a
