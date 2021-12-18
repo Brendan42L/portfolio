@@ -22,21 +22,21 @@ code {
   padding-bottom: 0.5em;
 }
 .activeAbout {
-  border-bottom: 4px solid #FFF;
+  border-bottom: 4px solid #387C6D;
   padding-bottom: 0.5em;
 }
 .activeTec {
-  border-bottom: 4px solid rgb(67, 136, 132);
+  border-bottom: 4px solid #343F56;
   padding-bottom: 0.5em;
 }
 
 .activeProjects {
-  border-bottom: 4px solid yellow;
+  border-bottom: 4px solid #FFF;
   padding-bottom: 0.5em;
 }
 
 .activeContact {
-  border-bottom: 4px solid rgb(246, 90, 150);
+  border-bottom: 4px solid rgb(207, 186, 68);
   padding-bottom: 0.5em;
 }
 

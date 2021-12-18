@@ -46,7 +46,7 @@ const Contact = () => {
           );
       } else {
         setValidation(true);
-        setResponse("Please Don't leave anything blank");
+        setResponse("Please don't leave anything blank");
       }
     }
   };
@@ -84,18 +84,19 @@ const Contact = () => {
   return (
     <>
       <div className={styles.wrapper}>
-        
-
         <div className={styles.wrapper2}>
-        <p className={styles.text}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
-        </p>
-          <h6 className={styles.cv}>Download my Resume:</h6>
+          <h2 className={styles.headers}>Get In Touch</h2>
+          <hr className={styles.hr} />
+          <p className={styles.text}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <h6 className={styles.cv}>Download my resume:</h6>
 
           <a
+            className={styles.link}
             rel="noreferrer"
             href={Resume}
             download="Brendan-little-resume"
@@ -104,10 +105,15 @@ const Contact = () => {
             Brendan-little-resume.pdf
           </a>
           <h6 className={styles.email}>Email me directly:</h6>
-          <p className={styles.emailP}>brendanlittle42@gmail.com</p>
+          <a
+            href="mailto:brendanlittle42@gmail.com"
+            className={styles.linkEmail}
+          >
+            brendanlittle42@gmail.com
+          </a>
         </div>
 
-        <form onSubmit={handleSubmit} className={styles.form}>
+        <form method="get" onSubmit={handleSubmit} className={styles.form}>
           <label>
             <p style={{ color: validation && !name ? "red" : "#FFF" }}>Name:</p>
             <input

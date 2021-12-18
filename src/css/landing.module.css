@@ -23,16 +23,16 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
-  z-index: -1;
+  z-index: 1;
 }
 
 .background3 {
   height: auto;
   width: 100vw;
   max-width: 100%;
-  background-image: url("./svg/waveBlue.svg");
+  background-image: url("./svg/waveCream.svg");
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: bottom right;
   background-size: cover;
   overflow: hidden;
   padding: 0em 0em 13em 0em;
@@ -43,12 +43,12 @@
   height: auto;
   width: 100vw;
   max-width: 100%;
-  background-image: url("./svg/waveCream.svg");
+  background-image: url("./svg/waveBlue.svg");
   background-repeat: no-repeat;
-  background-position: bottom ;
+  background-position: top ;
   background-size: cover;
   position: relative;
-  padding: 0em 0em 17em 0em;
+  padding: 0em 0em 13em 0em;
 }
 
 .background5 {
@@ -56,7 +56,7 @@
   width: 100vw;
   max-width: 100%;
   position: relative;
-  padding: 0em 0em 4em 0em;
+  padding: 0em 0em 6em 0em;
 }
 
 
@@ -77,23 +77,17 @@
 
 /* Chevron Mover  */
 
-/* .chevronContainer {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .chevron::before {
   border-style: solid;
   border-width: 0.5em 0.5em 0 0;
+   margin: 0;
   content: "";
   display: inline-block;
-  height: 1.5em;
+  height: 1.8em;
   transform: rotate(-45deg);
   vertical-align: top;
-  width: 1.5em;
+  width: 1.8em;
   color: #fff;
   transform: rotate(135deg);
   cursor: pointer;
@@ -108,21 +102,21 @@
 
 .chevronPostion2 {
   position: absolute;
-  bottom: 25px;
+  bottom: 40px;
   left: 50%;
   transform: translate(-50%);
 }
 
 .chevronPostion3 {
   position: absolute;
-  bottom: 80px;
+  bottom: 150px;
   left: 50%;
   transform: translate(-50%);
 }
 
 .chevronPostion4 {
   position: absolute;
-  bottom: 170px;
+  bottom: 50px;
   left: 50%;
   transform: translate(-50%);
 }
@@ -131,9 +125,9 @@
 
 .chevronPostion5 {
   position: absolute;
-  bottom: 20px;
-  left: 45%;
-  transform: translate(-45%);
+  bottom: 35px;
+  left: 49%;
+  transform: translate(-49%);
   transform: rotateX(180deg)
 }
 
