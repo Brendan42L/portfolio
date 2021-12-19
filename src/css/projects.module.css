@@ -109,6 +109,53 @@
   z-index: 1;
 }
 
+.binocularsTip span {
+  display: none;
+  position: absolute;
+  bottom: -30px;
+  left: 0px;
+  right: 0px;
+  background: rgba(100, 100, 100, 0.514);
+  color: rgb(255, 255, 255);
+  padding: 0.2em 0;
+  width: 170px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.9em ;
+ 
+}
+
+.binocularsTip img, .codeTip img {
+ cursor: pointer;
+}
+
+
+.binocularsTip:hover span {
+  display: block;
+}
+
+
+.codeTip span {
+  display: none;
+  position: absolute;
+  bottom: -30px;
+  left: 170px;
+  right: 0px;
+  background: rgba(100, 100, 100, 0.514);
+  color: rgb(255, 255, 255);
+  padding: 0.2em 0;
+  width: 170px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.9em ;
+}
+
+.codeTip:hover span {
+  display: block;
+}
+
 
 @media (min-width: 768px) {
 

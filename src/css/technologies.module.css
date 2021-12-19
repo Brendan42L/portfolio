@@ -15,17 +15,17 @@
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 20px;
   justify-content: center;
   align-items: center;
-  margin: 4em 0 0em 0;
+  margin: 3em 0 0em 0;
 }
 
 .parent p {
-  letter-spacing: 3px;
+  font-size: 1em;
 }
 
 @keyframes bounce {
@@ -65,21 +65,33 @@
   -moz-animation-name: bounce;
 }
 
-@media (max-width: 1027px) {
-  .parent {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-row-gap: 30px;
-  }
-}
+
 
 @media (max-width: 609px) {
-  .parent {
-    grid-template-columns: repeat(2, 1fr);
-
-    grid-row-gap: 50px;
-  }
   .languageLogo {
     height: 50px;
   }
+  .parent p {
+    font-size: 0.7em;
+  }
 }
+
+@media (min-width: 745px) {
+  .parent {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  .parent {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+@media (max-width: 1027px) {
+ 
+  .parent p {
+    font-size: 1em;
+  }
+
+}
+

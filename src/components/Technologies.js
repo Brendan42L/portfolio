@@ -11,7 +11,7 @@ function Technologies() {
             src={"images/html.png"}
             alt="html 5 logo"
             width="auto"
-            height="70"
+            height="60"
           />
           <p>HTML</p>
         </div>
@@ -21,7 +21,7 @@ function Technologies() {
             src={"images/css.png"}
             alt="css logo"
             width="auto"
-            height="70"
+            height="60"
           />
           <p>CSS</p>
         </div>
@@ -32,7 +32,7 @@ function Technologies() {
             src={"images/js.png"}
             alt="javascript logo"
             width="auto"
-            height="70"
+            height="60"
           />
           <p>Javascript</p>
         </div>
@@ -42,7 +42,7 @@ function Technologies() {
             src={"images/solidity.svg"}
             alt="solidity logo"
             width="auto"
-            height="90"
+            height="80"
           />
           <p>Solidity</p>
         </div>
@@ -53,7 +53,7 @@ function Technologies() {
             src={"images/Node.js_logo.svg"}
             alt="node js logo"
             width="auto"
-            height="90"
+            height="80"
           />
         </div>
         <div className={styles.languageBox}>
@@ -62,7 +62,7 @@ function Technologies() {
             src={"images/nextjs.svg"}
             alt="next.js logo"
             width="auto"
-            height="72"
+            height="62"
           />
         </div>
         <div className={styles.languageBox}>
@@ -71,7 +71,7 @@ function Technologies() {
             src={"images/react.png"}
             alt="react logo"
             width="auto"
-            height="75"
+            height="65"
           />
           <p>React</p>
         </div>
@@ -82,7 +82,7 @@ function Technologies() {
             src={"images/express.svg"}
             alt="Express logo"
             width="auto"
-            height="80"
+            height="70"
           />
         </div>
         <div className={styles.languageBox}>
@@ -91,7 +91,7 @@ function Technologies() {
             src={"images/web3js.svg"}
             alt="web3.js logo"
             width="auto"
-            height="100"
+            height="90"
           />
           <p>Web3.js</p>
         </div>
@@ -101,7 +101,7 @@ function Technologies() {
             src={"images/material UI.png"}
             alt="material UI logo"
             width="auto"
-            height="90"
+            height="80"
           />
           <p>Material UI</p>
         </div>
@@ -111,7 +111,7 @@ function Technologies() {
             src={"images/mySql.svg"}
             alt="mySql logo"
             width="auto"
-            height="120"
+            height="110"
           />
         </div>
 
@@ -121,7 +121,7 @@ function Technologies() {
             src={"images/mongoDB.png"}
             alt="mongoDb logo"
             width="auto"
-            height="100"
+            height="90"
           />
         </div>
 
@@ -131,9 +131,9 @@ function Technologies() {
             src={"images/git.svg"}
             alt="git logo"
             width="auto"
-            height="80"
+            height="70"
           />
-            <p>Git</p>
+          <p>Git</p>
         </div>
         <div className={styles.languageBox}>
           <img
@@ -141,7 +141,7 @@ function Technologies() {
             src={"images/github.svg"}
             alt="git logo"
             width="auto"
-            height="95"
+            height="85"
           />
           <p>Github</p>
         </div>
@@ -152,7 +152,7 @@ function Technologies() {
             src={"images/Figma-logo.svg"}
             alt="Figma logo"
             width="auto"
-            height="85"
+            height="75"
           />
           <p>Figma</p>
         </div>

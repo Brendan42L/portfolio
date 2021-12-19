@@ -49,7 +49,7 @@ const Landing = () => {
         </Link>
       </div>
       <div className={styles.background3} id="technologies">
-        <h2 style={{ margin: "2em auto 0 auto" }} className={styles.headers}>
+        <h2 style={{ margin: "2em auto 0.5em auto" }} className={styles.headers}>
           Technologies I Know
         </h2>
         <hr className={styles.hr} />
