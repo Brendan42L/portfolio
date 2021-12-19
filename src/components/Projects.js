@@ -135,7 +135,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className={styles.box}>
+        <div className={styles.box} box={styles.box3}>
           <div className={styles.front}>
             <img
               src={"images/bbb.jpg"}
@@ -194,7 +194,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
     </>
   );
 };

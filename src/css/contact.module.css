@@ -2,9 +2,10 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  padding: 0 1.5em 0em 1.5em;
+  padding: 1em 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .headers {
@@ -30,6 +31,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
+
 }
 
 .text {
@@ -37,22 +40,25 @@
   text-align: left;
   font-weight: 400;
   max-width: 600px;
-  margin: 2em 0 0 0;
+  margin: 1em 0 1em 0;
+  padding: 0 1em;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  padding: 2em 2em 0 2em;
-  width: 100%;
+align-items: center;
   max-width: 600px;
-  margin: 2em 0 0 0;
+  margin: 2em auto 0 auto;
+ 
+  padding: 1em auto;
 }
 
 
 .form p {
   font-weight: 700;
   letter-spacing: 1px;
+  
 }
 
 
@@ -109,9 +115,10 @@ input[type="text"],
 [type="tel"],
 [type="email"],
 textarea {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  min-width: 300px;
+  
+  padding: 12px 0px;
+  margin: 8px auto;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -152,3 +159,16 @@ textarea {
 
   }
 }
+
+
+@media only screen and (min-width: 700px) {
+  input[type="text"],
+  [type="tel"],
+  [type="email"],
+  textarea {
+    width: 600px;
+  }
+}
+
+
+

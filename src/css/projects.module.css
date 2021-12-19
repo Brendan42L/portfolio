@@ -4,12 +4,15 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 2em 0 0 0;
+  margin: 3em 0 0 0;
 }
 
-#box2 {
-  margin-top: 5em;
-}
+ #box2 {
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+} 
+
+
 
 .box{  
   width: 320px;  
@@ -166,6 +169,6 @@
   }
 
   #box2 {
-    margin-top: 0em;
+    margin: 0em;
   }
 }
