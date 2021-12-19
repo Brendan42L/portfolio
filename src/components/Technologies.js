@@ -125,6 +125,19 @@ function Technologies() {
           />
         </div>
 
+      
+
+        <div className={styles.languageBox}>
+          <img
+            className={styles.languageLogo}
+            src={"images/ether.svg"}
+            alt="Ethers.js logo"
+            width="auto"
+            height="70"
+          />
+           <p>Ethers.js</p>
+        </div>
+
         <div className={styles.languageBox}>
           <img
             className={styles.languageLogo}
@@ -149,6 +162,29 @@ function Technologies() {
         <div className={styles.languageBox}>
           <img
             className={styles.languageLogo}
+            src={"images/affinity.svg"}
+            alt="Affinity logo"
+            width="auto"
+            height="95"
+          />
+        </div>
+
+        <div className={styles.languageBox}>
+          <img
+            className={styles.languageLogo}
+            src={"images/affinityDesigner.svg"}
+            alt="Affinity Designer logo"
+            width="auto"
+            height="95"
+          />
+        </div>
+
+        
+
+        
+        <div className={styles.languageBox}>
+          <img
+            className={styles.languageLogo}
             src={"images/Figma-logo.svg"}
             alt="Figma logo"
             width="auto"
@@ -162,3 +198,4 @@ function Technologies() {
 }
 
 export default Technologies;
+ 

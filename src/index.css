@@ -21,7 +21,10 @@ code {
 .activeHome {
   border-bottom: 4px solid #ff7f5b;
   padding-bottom: 0.5em;
+  animation: none;
 }
+
+
 .activeAbout {
   border-bottom: 4px solid #343F56;
  

@@ -43,8 +43,13 @@
   justify-content: center;  
   align-items: center;  
   flex-direction: column;  
+  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
   transform: perspective(800px) rotateX(-180deg);  
+  -webkit-transform: perspective(800px) rotateX(-180deg);  
 }  
+
+
 .box .back p{  
   margin: 10px 20px;  
   text-align: center;  
@@ -55,10 +60,12 @@
   position: absolute;  
 }  
 .box:hover .front{  
-  transform: perspective(800px) rotateX(180deg);  
+  transform: perspective(800px) rotateX(180deg); 
+  -webkit-transform: perspective(800px) rotateX(180deg); 
 }  
 .box:hover .back{  
   transform: perspective(800px) rotateX(0);  
+  -webkit-transform: perspective(800px) rotateX(0);  
 }  
 
 
@@ -67,7 +74,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  height: 600px;
+  height: 1600px;
   color: #fff;
   font-size: 1em;
   font-weight: 200;
@@ -80,7 +87,7 @@
 .crawl {
   position: relative;
   top: -100px;
-  animation: crawl 9s linear infinite;
+  animation: crawl 13s linear infinite;
 }
 
 @keyframes crawl {
@@ -88,7 +95,7 @@
     top: 250px;
   }
   100% {
-    top: -650px;
+    top: -1650px;
   }
 }
 
@@ -160,6 +167,15 @@
   display: block;
 }
 
+
+.sliderTitle {
+  font-size: 1.8em;
+  font-weight: 200;
+}
+
+.starWars li p {
+  font-weight: 300;
+}
 
 @media (min-width: 768px) {
 

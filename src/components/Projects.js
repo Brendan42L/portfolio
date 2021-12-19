@@ -18,7 +18,7 @@ const Projects = () => {
             <section className={styles.starWars}>
               <div className={styles.crawl}>
                 <div className={styles.title}>
-                  <p>Live In Angels</p>
+                  <p>Beauty By Brendan</p>
                 </div>
 
                 <p>
@@ -26,17 +26,23 @@ const Projects = () => {
                   hidden base, have won their first victory against the evil
                   Galactic Empire.
                 </p>
-
+                <img
+                  src={"images/lia.jpg"}
+                  alt="Live In Angels Site"
+                  width="100%"
+                  height="auto"
+                />
                 <p>
                   It is a period of civil war. Rebel spaceships, striking from a
                   hidden base, have won their first victory against the evil
                   Galactic Empire.
                 </p>
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
+                <img
+                  src={"images/lia.jpg"}
+                  alt="Live In Angels Site"
+                  width="100%"
+                  height="auto"
+                />
                 <p>
                   It is a period of civil war. Rebel spaceships, striking from a
                   hidden base, have won their first victory against the evil
@@ -77,40 +83,60 @@ const Projects = () => {
             <section className={styles.starWars}>
               <div className={styles.crawl}>
                 <div className={styles.title}>
-                  <p>Live In Angels</p>
+                  <p className={styles.sliderTitle}>Live-In Carers</p>
                 </div>
                 <img
-                  src={"images/bbb.jpg"}
-                  alt="Beauty By Brendan Site "
+                  src={"images/slider/carer.jpg"}
+                  alt="Live-In Carers Site "
                   width="100%"
                   height="auto"
                 />
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
+                <p>Employees/Client Profile Features</p>
+                <ul>
+                  <li>Personal notes with notifactions</li>
+                  <li>Rosterer with built in mailer</li>
+                  <li>Employee Portal</li>
+                  <li>Document manager</li>
+                  <li>Store personal details securely</li>
+                </ul>
                 <img
-                  src={"images/lia.jpg"}
-                  alt="Live In Angels Site"
+                  src={"images/slider/clientLarge.jpg"}
+                  alt="Live-In Carers Site "
                   width="100%"
                   height="auto"
                 />
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
+                <p>JSON-Token sign up forms</p>
+
                 <img
-                  src={"images/bbb.jpg"}
-                  alt="Beauty By Brendan Site "
+                  src={"images/slider/form.jpg"}
+                  alt="Live-In Carers Site "
                   width="100%"
                   height="auto"
                 />
 
+                <p>Admin Control Panel</p>
+
                 <img
-                  src={"images/lia.jpg"}
-                  alt="Live In Angels Site"
+                  src={"images/slider/dash.jpg"}
+                  alt="Live-In Carers Site "
+                  width="100%"
+                  height="auto"
+                />
+
+                <p>Jobs Board</p>
+
+                <img
+                  src={"images/slider/jobsboard.jpg"}
+                  alt="Live-In Carers Site "
+                  width="100%"
+                  height="auto"
+                />
+
+                <p>Tag searchable Blogs</p>
+
+                <img
+                  src={"images/slider/blog.jpg"}
+                  alt="Live-In Carers Site "
                   width="100%"
                   height="auto"
                 />
@@ -138,40 +164,19 @@ const Projects = () => {
         <div className={styles.box} box={styles.box3}>
           <div className={styles.front}>
             <img
-              src={"images/bbb.jpg"}
-              alt="Beauty By Brendan Site "
+              src={"images/slider/comingSoon.jpg"}
+              alt="Coming Soon "
               width="100%"
-              height="auto"
+              height="280"
             />
           </div>
           <div className={styles.back}>
             <section className={styles.starWars}>
               <div className={styles.crawl}>
                 <div className={styles.title}>
-                  <p>Live In Angels</p>
+                  <p>Solidty - Blockchain</p>
                 </div>
-
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
-
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
+               
               </div>
             </section>
           </div>

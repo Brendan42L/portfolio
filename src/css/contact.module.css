@@ -18,13 +18,10 @@
   letter-spacing: 2px;
 }
 
-
 .hr {
   width: 80%;
   max-width: 450px;
 }
-
-
 
 .wrapper2 {
   display: flex;
@@ -32,7 +29,6 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-
 }
 
 .text {
@@ -47,46 +43,44 @@
 .form {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
   max-width: 600px;
   margin: 2em auto 0 auto;
- 
+
   padding: 1em auto;
 }
-
 
 .form p {
   font-weight: 700;
   letter-spacing: 1px;
-  
 }
-
 
 .submit {
   margin: 1em auto 0 auto !important;
 }
 
 .cv {
-  color: #387C6D;
+  color: #387c6d;
   font-size: 1.4em;
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0.8em 0;
-  
 }
 
 .email {
-  color: #387C6D;
+  color: #387c6d;
   font-size: 1.5em;
   letter-spacing: 1px;
   font-weight: 400;
   margin: 0.8em 0;
- 
 }
 
-.link:link, a:visited,  a:hover, a:active {
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
   font-size: 1.1em;
-  color: #FFF;
+  color: #fff;
   margin: 0.8em 0;
   text-decoration: none;
   letter-spacing: 1px;
@@ -94,7 +88,7 @@ align-items: center;
 .linkEmail {
   font-size: 1.1em;
   font-size: 1.1em;
-  color: #FFF;
+  color: #fff;
   margin: 0.8em 0;
   text-decoration: none;
   letter-spacing: 1px;
@@ -116,7 +110,7 @@ input[type="text"],
 [type="email"],
 textarea {
   min-width: 300px;
-  
+
   padding: 12px 0px;
   margin: 8px auto;
   display: inline-block;
@@ -150,16 +144,11 @@ textarea {
   opacity: 0;
 }
 
-
-
 @media only screen and (min-width: 1000px) {
   .wrapper {
-
     flex-direction: row;
-
   }
 }
-
 
 @media only screen and (min-width: 700px) {
   input[type="text"],
@@ -169,6 +158,3 @@ textarea {
     width: 600px;
   }
 }
-
-
-

@@ -38,7 +38,7 @@ const AboutMe = () => {
         <div className={styles.lightBeam}></div>
 
         <p className={styles.aboutMe}>
-          Hi, I'm Brendan its been{" "}
+          Hello I'm Brendan, its been{" "}
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
