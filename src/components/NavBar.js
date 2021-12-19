@@ -71,7 +71,7 @@ const NavBar = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={-193}
+            offset={-100}
             duration={1000}
             activeClass="activeAbout {
               "
@@ -85,7 +85,7 @@ const NavBar = () => {
             to="technologies"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-100}
             duration={1000}
             activeClass="activeTec"
           >
@@ -99,7 +99,7 @@ const NavBar = () => {
             to="projects"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-131}
             duration={1000}
             activeClass="activeProjects"
           >
@@ -113,7 +113,7 @@ const NavBar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-120}
+            offset={-100}
             duration={1000}
             activeClass="activeContact"
           >

@@ -24,11 +24,17 @@ const Landing = () => {
           to="about"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-100}
           duration={1000}
           className={styles.chevronPostion1}
         >
-          <span className={styles.chevron}></span>
+         <img
+          className={styles.chevron}
+          src="images/chev.svg"
+          alt="svg"
+          width="55"
+          height="auto"
+        />
         </Link>
       </div>
       <div className={styles.background2} id="about">
@@ -45,7 +51,13 @@ const Landing = () => {
           duration={1000}
           className={styles.chevronPostion2}
         >
-          <span className={styles.chevron}></span>
+         <img
+          className={styles.chevron}
+          src="images/chev.svg"
+          alt="svg"
+          width="55"
+          height="auto"
+        />
         </Link>
       </div>
       <div className={styles.background3} id="technologies">
@@ -60,11 +72,17 @@ const Landing = () => {
           to="projects"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-131}
           duration={1000}
           className={styles.chevronPostion3}
         >
-          <span className={styles.chevron}></span>
+           <img
+          className={styles.chevron}
+          src="images/chev.svg"
+          alt="svg"
+          width="55"
+          height="auto"
+        />
         </Link>
       </div>
       <div className={styles.background4} id="projects">
@@ -75,11 +93,17 @@ const Landing = () => {
           to="contact"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-100}
           duration={1000}
           className={styles.chevronPostion4}
         >
-          <span className={styles.chevron}></span>
+           <img
+          className={styles.chevron}
+          src="images/chev.svg"
+          alt="svg"
+          width="55"
+          height="auto"
+        />
         </Link>
       </div>
       <div className={styles.background5} id="contact">
@@ -89,11 +113,18 @@ const Landing = () => {
           to="home"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-120}
           duration={1000}
           className={styles.chevronPostion5}
         >
-          <span className={styles.chevron}></span>
+          <img
+          id={styles.returnChev}
+          className={styles.chevron}
+          src="images/chev.svg"
+          alt="svg"
+          width="55"
+          height="auto"
+        />
         </Link>
       </div>
       <Footer/>

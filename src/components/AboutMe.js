@@ -23,7 +23,6 @@ const AboutMe = () => {
     setMinutes(minutes.toString().replace("-", " "));
     setHours(hours.toString().replace("-", " "));
     setDays(days.toString().replace("-", " "));
-    console.log(days);
   };
 
   return (
