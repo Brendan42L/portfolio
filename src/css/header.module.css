@@ -9,7 +9,7 @@
 .blobMain {
   position: absolute;
   left: 55%;
-  transform: translate(-55%);
+  -webkit-transform: translate(-55%);
   top: 80px;
 }
 
@@ -63,7 +63,7 @@
   letter-spacing: 2px;
   color: #ff7f5b;
   margin: 0;
-  text-transform: capitalize;
+  text--webkit-transform: capitalize;
 }
 
 #flip {
@@ -78,7 +78,7 @@
   font-size: 0.9em;
   font-weight: 300;
   text-align: center;
-  text-transform: capitalize;
+  text--webkit-transform: capitalize;
   color: #ff7f5b;
   letter-spacing: 2px;
   display: inline-block;
@@ -86,60 +86,61 @@
 }
 
 #flip div {
+  -webkit-animation: show 7s linear  infinite;
   animation: show 7s linear  infinite;
-  animation-fill-mode: both;
-  /* transform: translateY(-100px); */
+  -webkit-animation-duration: both;
+  /* -webkit-transform: translateY(-100px); */
 }
 
 @keyframes show {
   0% {
-    transform: translateY(-150px);
+    -webkit-transform: translateY(-150px);
   }
   12.5% {
-    transform: translateY(-85px);
+    -webkit-transform: translateY(-85px);
   }
 
   25% {
-    transform: translateY(-85px);
+    -webkit-transform: translateY(-85px);
   }
 
   62.5% {
-    transform: translateY(-28px);
+    -webkit-transform: translateY(-28px);
   }
   75% {
-    transform: translateY(-28px);
+    -webkit-transform: translateY(-28px);
   }
 
   99.9% {
-    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
   }
 
   100% {
-    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
   }
 }
 
 /* @keyframes show {
   0% {
-    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
   }
   25% {
-    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
   }
 
   50% {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
   }
 
   75% {
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
   }
 
   99.9% {
-    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
   }
   100% {
-    transform: translateY(-200px);
+    -webkit-transform: translateY(-200px);
   }
 
 } */
@@ -154,7 +155,7 @@
   animation: block 15s infinite linear;
   animation-delay: 1s;
   display: inline-block;
-  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px);
 } */
 
 /* ---------------------------------------------- */
