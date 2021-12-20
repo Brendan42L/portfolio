@@ -7,7 +7,18 @@ const Header = () => {
       <header className={styles.container}>
         <div className={styles.Innercontainer}>
           <h2>Brendan Little</h2>
-          <h1>Full Stack Developer</h1>
+          <div id={styles.container}>
+            <div id={styles.flip}>
+              <div>
+                <h4 style={{paddingLeft: "0.8em"}}>FullStack</h4>
+              </div>
+              <div>
+                <h4>BlockChain</h4>
+              </div>
+            </div>
+            <h4>Developer</h4>
+          </div>
+          
 
           <div className={styles.evoContainer}>
             <div>
@@ -18,7 +29,7 @@ const Header = () => {
                 width="auto"
                 height="150"
               />
-              <svg width="500" height="500" className={styles.blobMain}>
+              {/* <svg width="500" height="500" className={styles.blobMain}>
                 <defs>
                   <linearGradient
                     id="gradient"
@@ -45,7 +56,7 @@ const Header = () => {
            M476,299Q454,348,426.5,392.5Q399,437,347.5,444Q296,451,246.5,467.5Q197,484,147,463Q97,442,82.5,390Q68,338,55.5,294Q43,250,44.5,201Q46,152,85.5,122.5Q125,93,162.5,61.5Q200,30,248,39Q296,48,340.5,64.5Q385,81,423,114.5Q461,148,479.5,199Q498,250,476,299Z"
                   />
                 </path>
-              </svg>
+              </svg> */}
             </div>
           </div>
         </div>

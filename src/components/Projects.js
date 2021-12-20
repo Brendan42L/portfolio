@@ -18,36 +18,10 @@ const Projects = () => {
             <section className={styles.starWars}>
               <div className={styles.crawl}>
                 <div className={styles.title}>
-                  <p>Beauty By Brendan</p>
+                  <p>Beautician</p>
                 </div>
 
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
-                <img
-                  src={"images/lia.jpg"}
-                  alt="Live In Angels Site"
-                  width="100%"
-                  height="auto"
-                />
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
-                <img
-                  src={"images/lia.jpg"}
-                  alt="Live In Angels Site"
-                  width="100%"
-                  height="auto"
-                />
-                <p>
-                  It is a period of civil war. Rebel spaceships, striking from a
-                  hidden base, have won their first victory against the evil
-                  Galactic Empire.
-                </p>
+                
               </div>
             </section>
           </div>
@@ -95,7 +69,7 @@ const Projects = () => {
                 <ul>
                   <li>Personal notes with notifactions</li>
                   <li>Rosterer with built in mailer</li>
-                  <li>Employee Portal</li>
+                  <li>Employee portal</li>
                   <li>Document manager</li>
                   <li>Store personal details securely</li>
                 </ul>
@@ -105,7 +79,7 @@ const Projects = () => {
                   width="100%"
                   height="auto"
                 />
-                <p>JSON-Token sign up forms</p>
+                <p>JSON-Token Sign Up Forms</p>
 
                 <img
                   src={"images/slider/form.jpg"}
@@ -132,7 +106,7 @@ const Projects = () => {
                   height="auto"
                 />
 
-                <p>Tag searchable Blogs</p>
+                <p>Tag Searchable Blogs</p>
 
                 <img
                   src={"images/slider/blog.jpg"}
