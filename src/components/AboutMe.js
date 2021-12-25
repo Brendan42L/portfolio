@@ -42,9 +42,11 @@ const AboutMe = () => {
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
-          since I decided to pick up my first programming book
+          since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book.
         </p>
       </div>
+
+      
     </>
   );
 };

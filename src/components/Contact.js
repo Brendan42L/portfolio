@@ -83,10 +83,13 @@ const Contact = () => {
 
   return (
     <>
+      {/* <div className={styles.stars}></div>
+      <div className={styles.twinkling}></div> */}
       <div className={styles.wrapper}>
         <div className={styles.wrapper2}>
-          <h2 style={{margin: "0 0 0.2.5em 0"}}  className={styles.headers}>Get In Touch</h2>
-          <hr className={styles.hr} />
+          <h2 className={styles.headers}>
+            Get In Touch
+          </h2>
           <p className={styles.text}>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text

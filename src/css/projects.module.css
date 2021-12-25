@@ -1,191 +1,77 @@
+.header {
+  font-size: 4.3em;
+  font-weight: 100;
+  text-align: center;
+  color: #f7f7f7c2;
+  letter-spacing: 15px;
+  padding: 0 0 0 0;
+  z-index: 200;
+  margin: -0.2em 0 0.7em 0;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.034);
+  height: 600px;
+  min-width: 320px;
+  max-width: 620px;
+  width: 100% !important;
+  border-radius: 20px;
+}
+
 .wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
-  align-items: center;
+  padding: 1.5em;
+}
+
+.siteImage {
+  object-fit: cover;
+  max-height: 316px;
   width: 100%;
-  margin: 3em 0 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
- #box2 {
-  margin-top: 2.5em;
-  margin-bottom: 2.5em;
-} 
 
-
-
-.box{  
-  width: 320px;  
-  height: 250px;   
-  position: relative;  
- 
-}  
-.box .front,  
-.box .back{  
-  position: absolute;  
-  width: 320px;  
-  height: 250px;   
-  background: #131313;
+.tags ul {
   color: #fff;
-  backface-visibility: hidden;  
-  transform-style: preserve-3d;  
-  cursor: pointer;   
-  border-radius: 20px;  
-  transition: transform .4s;  
+  list-style-type: none;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}  
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 1em auto;
+  padding: 0;
+}
 
-.box .back{  
-  display: flex;  
-  justify-content: center;  
-  align-items: center;  
-  flex-direction: column;  
-  transition-delay: 0.2s;
-  -webkit-transition-delay: 0.2s;
-  transform: perspective(800px) rotateX(-180deg);  
-  -webkit-transform: perspective(800px) rotateX(-180deg);  
-}  
-
-
-.box .back p{  
-  margin: 10px 20px;  
-  text-align: center;  
-}  
-.box .front img{  
-  width: 100%;  
-  height: auto;  
-  position: absolute;  
-}  
-.box:hover .front{  
-  transform: perspective(800px) rotateX(180deg); 
-  -webkit-transform: perspective(800px) rotateX(180deg); 
-}  
-.box:hover .back{  
-  transform: perspective(800px) rotateX(0);  
-  -webkit-transform: perspective(800px) rotateX(0);  
-}  
-
-
-
-.starWars {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 1600px;
-  color: #fff;
-  font-size: 1em;
+.tags ul li {
+  text-align: center;
+  font-size: 0.9em;
   font-weight: 200;
-  letter-spacing: 4px;
-  line-height: 1.5;
-  text-align: left;
-  overflow: hidden;
-}
-
-.crawl {
-  position: relative;
-  top: -100px;
-  animation: crawl 15s linear infinite;
-}
-
-@keyframes crawl {
-  0% {
-    top: 250px;
-  }
-  100% {
-    top: -1650px;
-  }
-}
-
-.btn {
-  color: #fff;
   letter-spacing: 2px;
-  font-weight: 400;
-  border: 1px solid rgb(38, 38, 94);
-  border-radius: 10px;
-  padding: 0.5em 1em;
+  color: rgb(238, 238, 238);
+  border: 1px solid rgb(143, 143, 143);
+  padding: 6px 13px;
+  border-radius: 20px;
+  margin: 0.5em auto;
 }
 
-.btnBox {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  align-items: center;
-  position: absolute;
-  top: 250px;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 1;
+.tags ul li:hover {
+  color: red;
+  transition-duration: 0.5s;
+  border: 1px solid red;
 }
 
-.binocularsTip span {
-  display: none;
-  position: absolute;
-  bottom: -30px;
-  left: 0px;
-  right: 0px;
-  background: rgba(100, 100, 100, 0.514);
-  color: rgb(255, 255, 255);
-  padding: 0.2em 0;
-  width: 170px;
-  border-radius: 5px;
-  text-align: center;
+.tags2 {
+  width: 70%;
+}
+
+.text {
+  font-size: 1em;
   font-weight: 300;
-  font-size: 0.9em ;
- 
-}
-
-.binocularsTip img, .codeTip img {
- cursor: pointer;
-}
-
-
-.binocularsTip:hover span {
-  display: block;
-}
-
-
-.codeTip span {
-  display: none;
-  position: absolute;
-  bottom: -30px;
-  left: 170px;
-  right: 0px;
-  background: rgba(100, 100, 100, 0.514);
-  color: rgb(255, 255, 255);
-  padding: 0.2em 0;
-  width: 170px;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: 300;
-  font-size: 0.9em ;
-}
-
-.codeTip:hover span {
-  display: block;
-}
-
-
-.sliderTitle {
-  font-size: 1.8em;
-  font-weight: 200;
-}
-
-.starWars li p {
-  font-weight: 300;
-}
-
-@media (min-width: 768px) {
-
-  .wrapper {
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-
-  #box2 {
-    margin: 0em;
-  }
+  letter-spacing: 1px;
+  color: rgb(238, 238, 238);
+  padding: 1em 2em;
+  text-align: justify;
+  margin: 0 auto;
 }

@@ -9,7 +9,6 @@ import Header from "./Header";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-
 const Landing = () => {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -28,22 +27,26 @@ const Landing = () => {
           duration={1000}
           className={styles.chevronPostion1}
         >
-         <img
-          className={styles.chevron}
-          src="images/chev.svg"
-          alt="svg"
-          width="55"
-          height="auto"
-        />
+          <img
+            className={styles.chevron}
+            src="images/chev.svg"
+            alt="svg"
+            width="55"
+            height="auto"
+          />
         </Link>
       </div>
       <div className={styles.background2} id="about">
-        <h2 style={{ margin: "2.5em auto 0.5em auto", opacity: "0.8" }} className={styles.headers}>
+        <h2
+          style={{ margin: "2.5em auto 0.5em auto", opacity: "0.8" }}
+          className={styles.headers}
+        >
           About Me
         </h2>
         {/* <hr className={styles.hrNoMargin} /> */}
         <AboutMe />
-        <Link
+
+        {/* <Link
           to="technologies"
           spy={true}
           smooth={true}
@@ -58,17 +61,17 @@ const Landing = () => {
           width="55"
           height="auto"
         />
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.background3} id="technologies">
-        <h2 style={{ margin: "2em auto 0.5em auto" }} className={styles.headers}>
-          Technologies I Know
-        </h2>
-        <hr className={styles.hr} />
+        {/* <h2 style={{ margin: "2em auto 0.5em auto" }} className={styles.headers}>
+          Tech Stack
+        </h2> */}
+        {/* <hr className={styles.hr} /> */}
 
         <Technologies />
 
-        <Link
+        {/* <Link
           to="projects"
           spy={true}
           smooth={true}
@@ -83,13 +86,14 @@ const Landing = () => {
           width="55"
           height="auto"
         />
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.background4} id="projects">
-        <h2 style={{ margin: "1em auto 0.5em auto"}} className={styles.headers}>My Projects</h2>
-        <hr className={styles.hr} />
+        {/* <h2 style={{ margin: "1em auto 0.5em auto"}} className={styles.headers}>My Projects</h2> */}
+        {/* <hr className={styles.hr} /> */}
         <Projects />
-        <Link
+
+        {/* <Link
           to="contact"
           spy={true}
           smooth={true}
@@ -104,10 +108,9 @@ const Landing = () => {
           width="55"
           height="auto"
         />
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.background5} id="contact">
-        
         <Contact />
         <Link
           to="home"
@@ -118,16 +121,16 @@ const Landing = () => {
           className={styles.chevronPostion5}
         >
           <img
-          id={styles.returnChev}
-          className={styles.chevron}
-          src="images/chev.svg"
-          alt="svg"
-          width="55"
-          height="auto"
-        />
+            id={styles.returnChev}
+            className={styles.chevron}
+            src="images/chev.svg"
+            alt="svg"
+            width="55"
+            height="auto"
+          />
         </Link>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

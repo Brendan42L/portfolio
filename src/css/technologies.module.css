@@ -1,93 +1,164 @@
-.languageBox {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
-  font-size: 1em;
-  color: #fff;
+.wrapper {
+  min-width: 320px;
+  width: 600px;
+}
+
+.container {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-left: 5em;
+}
+.wrapper ul ul {
+  color: #fff;
 }
 
-.languageLogo {
-  object-fit: cover;
+.wrapper ul {
+  list-style: none;
+  padding: 1em;
+  margin-left: 0.5em;
+}
+.wrapper li {
+  position: relative;
+  margin: 1em;
+  font-size: 1.1em;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: #fff;
+  padding: 0.3em 0 0.3em 40px;
+}
+.wrapper li::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 20px;
-  justify-content: center;
-  align-items: center;
-  margin: 3em 0 0em 0;
+.wrapper li:nth-child(1)::before {
+  background-color: #344cb7;
 }
 
-.parent p {
-  font-size: 0.8em;
+.wrapper li:nth-child(2)::before {
+  background-color: green;
+}
+.wrapper li:nth-child(3)::before {
+  background-color: #9b0000;
+}
+.wrapper li:nth-child(4)::before {
+  background-color: #ffff00d5;
+}
+.wrapper li:nth-child(5)::before {
+  background-color: #9145b6;
+}
+.wrapper li:nth-child(6)::before {
+  background-color: #f5eedcd5;
+}
+.wrapper li:nth-child(7)::before {
+  background-color: #de834d;
+}
+.wrapper li:nth-child(8) {
+  padding-top: 1.8em;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
-@keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
-  }
-  60% {
-    -webkit-transform: translateY(-15px);
-    -ms-transform: translateY(-15px);
-    transform: translateY(-15px);
-  }
+.header {
+  font-size: 4.3em;
+  font-weight: 100;
+  text-align: center;
+  color: #f7f7f7c2;
+  letter-spacing: 15px;
+  padding: 0 0 0 0;
+  margin: 0.1em 0 0.3em -1em;
+  z-index: 200;
 }
-.languageBox {
-  -webkit-animation-duration: 1.3s;
-  animation-duration: 1.3s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite;
-}
-.languageBox:hover {
+
+#expander {
   cursor: pointer;
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+}
+
+.extra {
+  list-style: none;
+  margin: 0 -1em 0 0;
+  width: 100%;
+  color: #f7f7f7c2;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+.extra li {
+  position: relative;
+  font-size: 1em;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: #fff;
+  padding: 0.3em 0 0.3em 40px;
+}
+
+.extra li::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: green;
+}
+
+.extra li:nth-child(1)::before {
+  background-color: #344cb7;
+}
+
+.extra li:nth-child(2)::before {
+  background-color: green;
+}
+.extra li:nth-child(3)::before {
+  background-color: #9b0000;
+}
+.extra li:nth-child(4)::before {
+  background-color: #ffff00d5;
+}
+.extra li:nth-child(5)::before {
+  background-color: #9145b6;
+}
+.extra li:nth-child(6)::before {
+  background-color: #f5eedcd5;
+}
+.extra li:nth-child(7)::before {
+  background-color: #de834d;
+}
+.extra li:nth-child(8)::before {
+  background-color: #344cb7;
+}
+.extra li:nth-child(9)::before {
+  background-color: green;
+}
+.extra li:nth-child(10)::before {
+  background-color: #9b0000;
+}
+.extra li:nth-child(11)::before {
+  background-color: #ffff00d5;
 }
 
 
 
-@media (max-width: 609px) {
-  .languageLogo {
-    height: 50px;
-  }
 
-  .parent p {
-    font-size: 1em;
-  }
 
-}
 
-@media (min-width: 745px) {
-  .parent {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
-@media (min-width: 1000px) {
-  .parent {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
 
 

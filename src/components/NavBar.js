@@ -103,7 +103,7 @@ const NavBar = () => {
             duration={1000}
             activeClass="activeProjects"
           >
-            Projects
+            Work
           </Link>
         </li>
 

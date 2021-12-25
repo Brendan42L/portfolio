@@ -21,6 +21,7 @@
 .evo {
   object-fit: contain;
   width: 100%;
+  margin: -4em 0 0em 0;
 }
 
 /* Head */
@@ -34,12 +35,13 @@
 /* Name */
 
 .container h2 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.7em;
-  font-weight: 300;
+  font-weight:800;
   text-align: center;
   color: #f7f7f7;
-  margin: 0 0 0em 0;
+  margin: 0.5em 0 0em 0;
+  letter-spacing: 2px;
   
 }
 
@@ -56,9 +58,9 @@
 }
 
 #container h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 800;
   text-align: center;
   letter-spacing: 2px;
   color: #ff7f5b;
@@ -74,9 +76,9 @@
 
 
 #flip h4 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.9em;
-  font-weight: 300;
+  font-weight: 800;
   text-align: center;
   text--webkit-transform: capitalize;
   color: #ff7f5b;
