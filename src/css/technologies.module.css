@@ -74,6 +74,10 @@
   letter-spacing: 3px;
 }
 
+.wrapper li:nth-child(8):hover {
+  font-weight: 800;
+}
+
 .header {
   font-size: 4.3em;
   font-weight: 100;

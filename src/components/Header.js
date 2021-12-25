@@ -1,20 +1,12 @@
 import React from "react";
 import styles from "../css/header.module.css";
-import WhatsAppWidget from "react-whatsapp-widget";
-import "react-whatsapp-widget/dist/index.css";
 
 const Header = () => {
   return (
     <>
       <header className={styles.container}>
         <div className={styles.Innercontainer}>
-          <div className={styles.whatsApp}>
-            <WhatsAppWidget
-              companyName={"Brendan Little"}
-              message={"Hello, I'm looking forward to hearing from you."}
-              phoneNumber="+61402374947"
-            />
-          </div>
+         
           <h2>Brendan Little</h2>
           <div id={styles.container}>
             <div id={styles.flip}>

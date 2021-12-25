@@ -79,6 +79,12 @@
 }
 
 
+.whatsApp {
+  position: fixed;
+  bottom: 80px;
+  right: 0;
+  z-index: 300;
+    }
 
 
 

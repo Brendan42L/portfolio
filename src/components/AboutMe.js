@@ -1,5 +1,7 @@
 import { React, useState, useEffect } from "react";
 import styles from "../css/aboutMe.module.css";
+import WhatsAppWidget from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
 
 const AboutMe = () => {
   const [startTimestamp, setStartTimestamp] = useState("January, 10, 2030");
@@ -8,9 +10,7 @@ const AboutMe = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
- 
 
-  
   setInterval(() => {
     setStartTimestamp(timer());
   }, 1000);
@@ -29,6 +29,14 @@ const AboutMe = () => {
 
   return (
     <>
+      <div className={styles.whatsApp}>
+        <WhatsAppWidget
+          companyName={"Brendan Little"}
+          message={"Hello, I'm looking forward to hearing from you."}
+          phoneNumber="+61402374947"
+        />
+      </div>
+
       <div className={styles.lightBox}>
         <img
           className={styles.light}
@@ -38,14 +46,17 @@ const AboutMe = () => {
           height="auto"
         />
         <div className={styles.lightBeam}></div>
-        
+
         <p className={styles.aboutMe}>
           Hello I'm Brendan, its been{" "}
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
-          since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book.
-        </p> 
+          since I decided to pick up my first programming book since I decided
+          to pick up my first programming book since I decided to pick up my
+          first programming book since I decided to pick up my first programming
+          book.
+        </p>
       </div>
     </>
   );

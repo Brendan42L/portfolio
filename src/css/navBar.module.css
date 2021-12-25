@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  font-weight: bold;
+ 
 }
 
 .menuicon {
@@ -28,7 +28,7 @@
 }
 
 .navMenu * {
-  font-weight: 300;
+  font-weight: 600;
   color: #97bfb4;
   text-align: center;
   text-decoration: none;
