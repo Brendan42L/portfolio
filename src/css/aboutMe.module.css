@@ -28,16 +28,6 @@
   animation: flicker 4s linear infinite;
   z-index: -100;
 }
-.lightBeamOff {
-  display: none;
-}
-.oboutMeOff {
-  display: none;
-}
-  
-  .headersOff {
-    display: none;
-  }
 
 .aboutMe {
   color: rgb(207, 207, 207);
@@ -88,14 +78,7 @@
   font-size: 1em;
 }
 
-.headers {
-  font-size: 2em;
-  font-weight: 300;
-  text-align: center;
-  color: #f7f7f7;
-  padding: 0 0.5em;
-  letter-spacing: 2px;
-}
+
 
 
 
@@ -230,6 +213,5 @@
     border-width: 70px 800px 350px 800px;
   }
 }
-
 
 

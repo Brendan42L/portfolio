@@ -8,8 +8,9 @@ const AboutMe = () => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-  const [one, setOne] = useState(false);
+ 
 
+  
   setInterval(() => {
     setStartTimestamp(timer());
   }, 1000);
@@ -26,26 +27,9 @@ const AboutMe = () => {
     setDays(days.toString().replace("-", " "));
   };
 
-  const lightSwitch = () => {
-    one ? setOne(false) : setOne(true);
-  };
-
   return (
     <>
-      <h2
-        style={{ margin: "2.5em auto 0.5em auto", opacity: "0.8" }}
-        className={one ? styles.headers : styles.headersOff}
-      >
-        About Me
-      </h2>
-
-     
-
-      {/* <button className={styles.switch} onClick={lightSwitch}>
-        {one ? "Off" : "On"}
-      </button> */}
       <div className={styles.lightBox}>
-   
         <img
           className={styles.light}
           src="images/light.png"
@@ -53,21 +37,16 @@ const AboutMe = () => {
           width="180"
           height="auto"
         />
-        <div className={one ? styles.lightBeam : styles.lightBeamOff}></div>
-
-        <p className={one ? styles.aboutMe : styles.oboutMeOff}>
+        <div className={styles.lightBeam}></div>
+        
+        <p className={styles.aboutMe}>
           Hello I'm Brendan, its been{" "}
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
-          since I decided to pick up my first programming book since I decided
-          to pick up my first programming book since I decided to pick up my
-          first programming book since I decided to pick up my first programming
-          book.
-        </p>
-        
+          since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book.
+        </p> 
       </div>
-      
     </>
   );
 };

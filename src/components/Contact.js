@@ -87,9 +87,7 @@ const Contact = () => {
       <div className={styles.twinkling}></div> */}
       <div className={styles.wrapper}>
         <div className={styles.wrapper2}>
-          <div className={styles.glowLine}>
-            <h2 className={styles.headers}>Get In Touch</h2>
-          </div>
+        <h2 className={styles.headers}>Contact Me</h2>
 
           <p className={styles.text}>
             Lorem Ipsum is simply dummy text of the printing and typesetting

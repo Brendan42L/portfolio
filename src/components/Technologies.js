@@ -12,7 +12,10 @@ function Technologies() {
     <>
       <div className={styles.container}>
         <div className={styles.wrapper}>
+         
+          <div className={styles.glowLine}>
           <h2 className={styles.header}>Tech Stack</h2>
+          </div>
           <ul>
             <li>React/Next.js</li>
             <li>Node.js</li>
