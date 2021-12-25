@@ -15,7 +15,7 @@ const Lia = () => {
   return (
     <>
      <h5 className={styles.title}>Live in Carers</h5>
-      <ReactSlidy doAfterSlide={updateSlide} slide={actualSlide}>
+      <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img className={styles.siteImage} width="100%" height="316px" alt="Job Site" key={src} src={src} />
         ))}
@@ -31,42 +31,42 @@ const Lia = () => {
       </div>
       {actualSlide === 0 ? (
         <p className={styles.text}>
-         Home
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-          Carer profile
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 2 ? (
         <p className={styles.text}>
-       Client profile
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 3 ? (
         <p className={styles.text}>
-        Blog
+       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 4 ? (
         <p className={styles.text}>
-          Jobsboard
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 5 ? (
         <p className={styles.text}>
-         Admin Dashboard
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
        {actualSlide === 6 ? (
         <p className={styles.text}>
-        Sign up form
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
         {actualSlide === 7 ? (
         <p className={styles.text}>
-        Employer Directory
+        ELorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       

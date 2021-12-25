@@ -27,7 +27,7 @@ const Header = () => {
                 src="images/evo.png"
                 alt="evolution of Brendan Little"
                 width="auto"
-                height="150"
+                height="160"
               />
               <svg width="500" height="500" className={styles.blobMain}>
                 <defs>

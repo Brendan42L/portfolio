@@ -15,7 +15,7 @@ const Bbb = () => {
   return (
     <>
      <h5 className={styles.title}>Beautician</h5>
-      <ReactSlidy doAfterSlide={updateSlide} slide={actualSlide}>
+      <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img className={styles.siteImage}  width="100%" height="316px" alt="Job Site" key={src} src={src} />
         ))}
@@ -30,17 +30,17 @@ const Bbb = () => {
       </div>
       {actualSlide === 0 ? (
         <p className={styles.text}>
-         Home
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-         prices
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
        {actualSlide === 2 ? (
         <p className={styles.text}>
-         php mailer
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
         </p>
       ) : null}
     </>

@@ -19,30 +19,30 @@ code {
 
 
 .activeHome {
-  border-bottom: 4px solid #ff7f5b;
+  border-bottom: 4px solid #344cb7;
   padding-bottom: 0.5em;
   animation: none;
 }
 
 
 .activeAbout {
-  border-bottom: 4px solid #343F56;
+  border-bottom: 4px solid green;
  
   padding-bottom: 0.5em;
 }
 .activeTec {
-  border-bottom: 4px solid #FFF;
+  border-bottom: 4px solid #9b0000;
   padding-bottom: 0.5em;
 }
 
 .activeProjects {
  
-  border-bottom: 4px solid #387C6D;
+  border-bottom: 4px solid #ffff00d5;
   padding-bottom: 0.5em;
 }
 
 .activeContact {
-  border-bottom: 4px solid rgb(207, 186, 68);
+  border-bottom: 4px solid #9145b6;
   padding-bottom: 0.5em;
 }
 

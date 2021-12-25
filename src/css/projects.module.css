@@ -11,13 +11,23 @@
 
 .card {
   background-color: rgba(255, 255, 255, 0.034);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   height: 600px;
   min-width: 320px;
   max-width: 620px;
   width: 100% !important;
   border-radius: 20px;
   margin: 0em auto 2em auto;
-  border-bottom: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(85, 85, 85);
+  padding: 0 1em 0 1em;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+
+.card:hover {
+  top: -15px;
 }
 
 .wrapper {
@@ -80,7 +90,7 @@
 
 
 .title {
-  margin: 0.5em 0;
+  margin: 0.4em 0;
   font-size: 1.8em;
   font-weight: 200;
   letter-spacing: 3px;
