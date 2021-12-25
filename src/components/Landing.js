@@ -37,12 +37,6 @@ const Landing = () => {
         </Link>
       </div>
       <div className={styles.background2} id="about">
-        <h2
-          style={{ margin: "2.5em auto 0.5em auto", opacity: "0.8" }}
-          className={styles.headers}
-        >
-          About Me
-        </h2>
         <AboutMe />
       </div>
       <div className={styles.background3} id="technologies">
@@ -51,7 +45,7 @@ const Landing = () => {
       <div className={styles.background4} id="projects">
         <Projects />
       </div>
-     
+
       <div className={styles.background5} id="contact">
         <Contact />
         <Link
