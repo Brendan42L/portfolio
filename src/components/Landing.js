@@ -9,6 +9,8 @@ import Header from "./Header";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
+
+
 const Landing = () => {
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
@@ -16,9 +18,12 @@ const Landing = () => {
 
   return (
     <>
+   
       <Nav />
+     
       <div className={styles.background} id="home">
         <Header />
+       
         <Link
           to="about"
           spy={true}
@@ -73,6 +78,7 @@ const Landing = () => {
         </Link>
       </div>
       <Footer />
+      
     </>
   );
 };

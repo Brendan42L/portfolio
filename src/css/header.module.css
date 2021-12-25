@@ -30,7 +30,18 @@
   object-fit: contain;
   opacity: 0.8;
   margin: 2em 0 0 0;
+  z-index: -1;
+  
 }
+
+
+.me:hover{
+  animation: head 0.5s linear ;
+  animation-fill-mode: forwards;
+}
+
+
+
 
 /* Name */
 
@@ -80,7 +91,7 @@
   font-size: 0.9em;
   font-weight: 800;
   text-align: center;
-  text--webkit-transform: capitalize;
+  text-transform: capitalize;
   color: #ff7f5b;
   letter-spacing: 2px;
   display: inline-block;
@@ -93,6 +104,29 @@
   -webkit-animation-duration: both;
   /* -webkit-transform: translateY(-100px); */
 }
+
+.whatsApp {
+position: fixed;
+bottom: 50px;
+right: 0;
+  }
+
+
+
+@keyframes head {
+  from{
+    filter: none;
+    -webkit-filter: grayscale(0);
+  }
+  to{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+}
+
+
+
+
 
 @keyframes show {
   0% {
@@ -122,43 +156,6 @@
   }
 }
 
-/* @keyframes show {
-  0% {
-    -webkit-transform: translateY(-100px);
-  }
-  25% {
-    -webkit-transform: translateY(-100px);
-  }
-
-  50% {
-    -webkit-transform: translateY(-30px);
-  }
-
-  75% {
-    -webkit-transform: translateY(-30px);
-  }
-
-  99.9% {
-    -webkit-transform: translateY(10px);
-  }
-  100% {
-    -webkit-transform: translateY(-200px);
-  }
-
-} */
-
-/* .block {
-  color: #ff7f5b;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.2em;
-  font-weight: 300;
-  text-align: center;
-  margin: 0 0 0 0;
-  animation: block 15s infinite linear;
-  animation-delay: 1s;
-  display: inline-block;
-  -webkit-transform: translateY(-50px);
-} */
 
 /* ---------------------------------------------- */
 
