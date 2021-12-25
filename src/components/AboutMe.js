@@ -36,17 +36,15 @@ const AboutMe = () => {
           height="auto"
         />
         <div className={styles.lightBeam}></div>
-
+        
         <p className={styles.aboutMe}>
           Hello I'm Brendan, its been{" "}
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
           since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book since I decided to pick up my first programming book.
-        </p>
+        </p> 
       </div>
-
-      
     </>
   );
 };

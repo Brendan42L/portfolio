@@ -14,6 +14,7 @@ const Lia = () => {
 
   return (
     <>
+     <h5 className={styles.title}>Live in Carers</h5>
       <ReactSlidy doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img className={styles.siteImage} width="100%" height="316px" alt="Job Site" key={src} src={src} />

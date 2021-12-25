@@ -65,7 +65,7 @@
   letter-spacing: 2px;
   color: #ff7f5b;
   margin: 0;
-  text--webkit-transform: capitalize;
+  text-transform: capitalize;
 }
 
 #flip {

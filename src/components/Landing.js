@@ -43,73 +43,15 @@ const Landing = () => {
         >
           About Me
         </h2>
-        {/* <hr className={styles.hrNoMargin} /> */}
         <AboutMe />
-
-        {/* <Link
-          to="technologies"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={1000}
-          className={styles.chevronPostion2}
-        >
-         <img
-          className={styles.chevron}
-          src="images/chev.svg"
-          alt="svg"
-          width="55"
-          height="auto"
-        />
-        </Link> */}
       </div>
       <div className={styles.background3} id="technologies">
-        {/* <h2 style={{ margin: "2em auto 0.5em auto" }} className={styles.headers}>
-          Tech Stack
-        </h2> */}
-        {/* <hr className={styles.hr} /> */}
-
         <Technologies />
-
-        {/* <Link
-          to="projects"
-          spy={true}
-          smooth={true}
-          offset={-131}
-          duration={1000}
-          className={styles.chevronPostion3}
-        >
-           <img
-          className={styles.chevron}
-          src="images/chev.svg"
-          alt="svg"
-          width="55"
-          height="auto"
-        />
-        </Link> */}
       </div>
       <div className={styles.background4} id="projects">
-        {/* <h2 style={{ margin: "1em auto 0.5em auto"}} className={styles.headers}>My Projects</h2> */}
-        {/* <hr className={styles.hr} /> */}
         <Projects />
-
-        {/* <Link
-          to="contact"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={1000}
-          className={styles.chevronPostion4}
-        >
-           <img
-          className={styles.chevron}
-          src="images/chev.svg"
-          alt="svg"
-          width="55"
-          height="auto"
-        />
-        </Link> */}
       </div>
+     
       <div className={styles.background5} id="contact">
         <Contact />
         <Link

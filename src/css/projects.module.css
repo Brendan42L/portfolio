@@ -16,6 +16,8 @@
   max-width: 620px;
   width: 100% !important;
   border-radius: 20px;
+  margin: 0em auto 2em auto;
+  border-bottom: 1px solid rgb(238, 238, 238);
 }
 
 .wrapper {
@@ -57,9 +59,9 @@
 }
 
 .tags ul li:hover {
-  color: red;
+  color: #ff7f5b;
   transition-duration: 0.5s;
-  border: 1px solid red;
+  border: 1px solid #ff7f5b;
 }
 
 .tags2 {
@@ -74,4 +76,14 @@
   padding: 1em 2em;
   text-align: justify;
   margin: 0 auto;
+}
+
+
+.title {
+  margin: 0.5em 0;
+  font-size: 1.8em;
+  font-weight: 200;
+  letter-spacing: 3px;
+  color: rgb(238, 238, 238);
+  text-align: center;
 }

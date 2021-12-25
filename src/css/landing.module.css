@@ -44,7 +44,7 @@
   background-position: top;
   background-size: cover;
   position: relative;
-  padding: 0em 0em 6em 0em;
+  padding: 0em 0em 2em 0em;
 }
 
 .background5 {
@@ -52,7 +52,7 @@
   width: 100vw;
   max-width: 100%;
   position: relative;
-  padding: 0em 0em 6em 0em;
+  padding: 0em 0em 7em 0em;
 }
 
 .headers {
@@ -106,6 +106,12 @@
   max-width: 400px;
   border: 0.5px solid rgb(163, 163, 163);
 }
+
+
+
+
+
+
 
 @media (min-width: 558px) {
   .chevronPostion1 {

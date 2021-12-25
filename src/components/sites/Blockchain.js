@@ -3,29 +3,30 @@ import ReactSlidy from "react-slidy";
 import styles from "../../css/projects.module.css";
 import "react-slidy/lib/styles.css";
 
-const SLIDES = ["images/slider/bbb.jpg", "images/slider/prices.jpg", "images/slider/contact.jpg"];
+const SLIDES = ["images/slider/comingSoon.jpg"];
 
-const Bbb = () => {
-  const [actualSlide, setActualSlide] = useState(0);
+const Blockchain = () => {
 
-  const updateSlide = ({ currentSlide }) => {
-    setActualSlide(currentSlide);
-  };
+    const [actualSlide, setActualSlide] = useState(0);
 
-  return (
-    <>
-     <h5 className={styles.title}>Beautician</h5>
-      <ReactSlidy doAfterSlide={updateSlide} slide={actualSlide}>
+    const updateSlide = ({ currentSlide }) => {
+      setActualSlide(currentSlide);
+    };
+
+    
+    return (
+        <>
+        <h5 className={styles.title}>Solidity/Blockchain</h5>
+             <ReactSlidy doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img className={styles.siteImage}  width="100%" height="316px" alt="Job Site" key={src} src={src} />
         ))}
       </ReactSlidy>
       <div className={styles.tags}>
         <ul className={styles.tags2}>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>PHP</li>
+          <li>Next.js</li>
+          <li>Solidity</li>
+          <li>Node.js</li>
         </ul>
       </div>
       {actualSlide === 0 ? (
@@ -42,9 +43,9 @@ const Bbb = () => {
         <p className={styles.text}>
          php mailer
         </p>
-      ) : null}
-    </>
-  );
-};
+      ) : null} 
+        </>
+    )
+}
 
-export default Bbb;
+export default Blockchain
