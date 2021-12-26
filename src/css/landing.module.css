@@ -26,7 +26,7 @@
   height: auto;
   width: 100vw;
   max-width: 100%;
-  margin: 5em 0 2em 0;
+  margin: 2em 0 2em 0;
   background-image: url("./svg/particle.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -51,10 +51,11 @@
   background-image: url("./svg/waveCream.svg");
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   max-width: 100%;
   position: relative;
-  padding: 6em 0em 8em 0em;
+  padding: 13em 0em 8em 0em;
 }
 
 .headers {
@@ -117,8 +118,8 @@
   .chevronPostion3 {
     bottom: 80px;
   }
-
 }
+
 
 @media (min-width: 1200px) {
   .background2 {

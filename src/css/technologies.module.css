@@ -240,6 +240,7 @@
   .header {
     font-size: 3em;
     text-align: center;
+    color: #ffffff;
     letter-spacing: 1px;
     margin: 0 auto;
     z-index: 200;
