@@ -1,7 +1,11 @@
 import React from "react";
 import styles from "../css/header.module.css";
+import useSound from "use-sound";
+import zombie from "../assets/zombie.wav";
 
 const Header = () => {
+  const [play, { stop }] = useSound(zombie);
+
   return (
     <>
       <header className={styles.container}>
@@ -61,7 +65,11 @@ const Header = () => {
           </div>
         </div>
 
-        <div className={styles.morf}></div>
+        <div
+          onMouseEnter={() => play()}
+          onMouseLeave={() => stop()}
+          className={styles.morf}
+        ></div>
       </header>
     </>
   );
