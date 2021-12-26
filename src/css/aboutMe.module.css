@@ -20,7 +20,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 5px 155px 800px 155px;
+  border-width: 5px 155px 940px 155px;
   border-color: transparent transparent #fff5b61c transparent;
   position: absolute;
   overflow: hidden;
@@ -42,8 +42,6 @@
   width: 40% !important;
   animation: flicker 4s linear infinite;
   opacity: 0.7;
-
- 
 }
 
 @keyframes flicker {
@@ -71,32 +69,29 @@
   }
 }
 
-
 .counter {
   color: #ffffff;
   font-weight: 500;
   font-size: 1em;
 }
 
-
 .whatsApp {
   position: fixed;
-  bottom: 80px;
-  right: 0;
+  bottom: -20px;
+  right: -13px;
   z-index: 300;
-    }
-
-
+  opacity: 1;
+}
 
 @media (min-width: 347px) {
   .lightBeam {
-    border-width: 80px 173px 760px 173px;
+    border-width: 0px 173px 940px 173px;
   }
 }
 
 @media (min-width: 375px) {
   .lightBeam {
-    border-width: 30px 173px 750px 173px;
+    border-width: 0px 173px 940px 173px;
   }
 }
 
@@ -106,38 +101,38 @@
   }
 
   .lightBeam {
-    border-width: 30px 200px 740px 200px;
+    border-width: 30px 200px 940px 200px;
   }
 }
 
 @media (min-width: 475px) {
   .lightBeam {
-    border-width: 35px 260px 730px 260px;
+    border-width: 35px 260px 940px 260px;
   }
 }
 
 @media (min-width: 503px) {
   .lightBeam {
-    border-width: 35px 260px 670px 260px;
+    border-width: 35px 260px 940px 260px;
   }
 }
 
 @media (min-width: 514px) {
   .lightBeam {
-    border-width: 35px 260px 670px 260px;
+    border-width: 35px 260px 940px 260px;
     top: -70px;
   }
 }
 
 @media (min-width: 574px) {
   .lightBeam {
-    border-width: 35px 260px 500px 260px;
+    border-width: 35px 260px 970px 260px;
   }
 }
 
 @media (min-width: 614px) {
   .lightBeam {
-    border-width: 40px 300px 530px 300px;
+    border-width: 40px 300px 960px 300px;
   }
 }
 
@@ -154,6 +149,14 @@
 @media (min-width: 704px) {
   .lightBeam {
     border-width: 70px 350px 500px 350px;
+  }
+
+  .whatsApp {
+    position: fixed;
+    bottom: 50px;
+    right: -13px;
+    z-index: 300;
+    opacity: 1;
   }
 }
 
@@ -192,7 +195,6 @@
   .lightBeam {
     border-width: 70px 600px 400px 600px;
   }
-
 }
 
 @media (min-width: 1300px) {
@@ -219,5 +221,3 @@
     border-width: 70px 800px 350px 800px;
   }
 }
-
-

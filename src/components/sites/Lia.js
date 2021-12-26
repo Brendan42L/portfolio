@@ -14,7 +14,32 @@ const Lia = () => {
 
   return (
     <>
-     <h5 className={styles.title}>Live in Carers</h5>
+     
+
+     {actualSlide === 0 ? (
+        <h5 className={styles.title}>Live in Carers</h5>
+      ) : null}
+      {actualSlide === 1 ? (
+        <h5 className={styles.title}>Employer Profiles</h5>
+      ) : null}
+      {actualSlide === 2 ? (
+      <h5 className={styles.title}>Client Profiles</h5>
+      ) : null}
+      {actualSlide === 3 ? (
+       <h5 className={styles.title}>Tag Searchable Blogs</h5>
+      ) : null}
+      {actualSlide === 4 ? (
+        <h5 className={styles.title}>Jobsboard</h5>
+      ) : null}
+      {actualSlide === 5 ? (
+      <h5 className={styles.title}>Admin Dashboard</h5>
+      ) : null}
+       {actualSlide === 6 ? (
+        <h5 className={styles.title}>Json Web-Token Forms</h5>
+      ) : null}
+        {actualSlide === 7 ? (
+       <h5 className={styles.title}>Employer/Client Directory</h5>
+      ) : null}
       <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img className={styles.siteImage} width="100%" height="316px" alt="Job Site" key={src} src={src} />

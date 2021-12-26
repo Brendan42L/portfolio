@@ -10,7 +10,9 @@ const Projects = () => {
     <>
       <h2 className={styles.header}>Work</h2>
       <div className={styles.wrapper}>
+        
         <div className={styles.card}>
+          
           <Lia />
         </div>
        

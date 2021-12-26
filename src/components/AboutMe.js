@@ -52,10 +52,7 @@ const AboutMe = () => {
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
-          since I decided to pick up my first programming book since I decided
-          to pick up my first programming book since I decided to pick up my
-          first programming book since I decided to pick up my first programming
-          book.
+          since I started teaching myself to code. I was born in Australia but I also hold a British passport, in my previous career I was a Luxury Yacht Captain & Scuba Instructor but I'm now engrossed in the world of code.
         </p>
       </div>
     </>
