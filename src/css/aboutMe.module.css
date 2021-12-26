@@ -20,7 +20,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 5px 155px 940px 155px;
+  border-width: 40px 750px 990px 750px;
   border-color: transparent transparent #fff5b61c transparent;
   position: absolute;
   overflow: hidden;
@@ -39,9 +39,11 @@
   line-height: 1.8;
   text-align: center;
   margin: 1em auto 0 auto;
-  width: 40% !important;
+  width: 70% !important;
   animation: flicker 4s linear infinite;
   opacity: 0.7;
+
+ 
 }
 
 @keyframes flicker {
@@ -69,11 +71,13 @@
   }
 }
 
+
 .counter {
   color: #ffffff;
   font-weight: 500;
   font-size: 1em;
 }
+
 
 .whatsApp {
   position: fixed;
@@ -81,113 +85,77 @@
   right: -13px;
   z-index: 300;
   opacity: 1;
-}
+    }
+
+
 
 @media (min-width: 347px) {
   .lightBeam {
-    border-width: 0px 173px 940px 173px;
+    border-width: 40px 700px 990px 700px;
   }
+
+ 
 }
 
 @media (min-width: 375px) {
   .lightBeam {
-    border-width: 0px 173px 940px 173px;
+    border-width: 40px 700px 990px 700px;
   }
 }
 
 @media (min-width: 414px) {
   .aboutMe {
     font-size: 1.2em;
+    width: 60% !important;
   }
 
   .lightBeam {
-    border-width: 30px 200px 940px 200px;
+    border-width: 40px 700px 990px 700px;
   }
 }
 
-@media (min-width: 475px) {
-  .lightBeam {
-    border-width: 35px 260px 940px 260px;
-  }
-}
+@media (min-width: 500px) {
 
-@media (min-width: 503px) {
-  .lightBeam {
-    border-width: 35px 260px 940px 260px;
-  }
-}
-
-@media (min-width: 514px) {
-  .lightBeam {
-    border-width: 35px 260px 940px 260px;
-    top: -70px;
-  }
-}
-
-@media (min-width: 574px) {
-  .lightBeam {
-    border-width: 35px 260px 970px 260px;
-  }
-}
-
-@media (min-width: 614px) {
-  .lightBeam {
-    border-width: 40px 300px 960px 300px;
-  }
+      .aboutMe {
+        width: 40% !important;
+      }
 }
 
 @media (min-width: 704px) {
-  .lightBeam {
-    border-width: 70px 350px 530px 350px;
-  }
-
-  .aboutMe {
-    width: 70%;
-  }
-}
-
-@media (min-width: 704px) {
-  .lightBeam {
-    border-width: 70px 350px 500px 350px;
-  }
 
   .whatsApp {
     position: fixed;
-    bottom: 50px;
+    bottom: 40px;
     right: -13px;
     z-index: 300;
     opacity: 1;
+      }
+
+      .aboutMe {
+  
+        width: 40% !important;
+      }
+}
+
+@media (min-width: 800px) {
+
+  .lightBeam {
+    border-width: 70px 600px 500px 600px;
+    top: -50px;
   }
 }
 
-@media (min-width: 814px) {
-  .lightBeam {
-    border-width: 60px 400px 520px 400px;
-  }
-}
-
-@media (min-width: 875px) {
-  .lightBeam {
-    border-width: 60px 400px 490px 400px;
-  }
-}
-
-@media (min-width: 914px) {
-  .lightBeam {
-    border-width: 70px 450px 470px 450px;
-  }
-}
 
 @media (min-width: 1000px) {
   .lightBeam {
-    border-width: 70px 500px 450px 500px;
+    border-width: 70px 600px 450px 600px;
     top: -50px;
   }
 }
 
 @media (min-width: 1100px) {
   .lightBeam {
-    border-width: 70px 550px 410px 550px;
+    border-width: 70px 600px 410px 600px;
   }
 }
 
@@ -195,6 +163,7 @@
   .lightBeam {
     border-width: 70px 600px 400px 600px;
   }
+
 }
 
 @media (min-width: 1300px) {
@@ -221,3 +190,5 @@
     border-width: 70px 800px 350px 800px;
   }
 }
+
+

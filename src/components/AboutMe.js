@@ -30,11 +30,11 @@ const AboutMe = () => {
   return (
     <>
       <div className={styles.whatsApp}>
-        <WhatsAppWidget
+        {/* <WhatsAppWidget
           companyName={"Brendan Little"}
           message={"Hello, I'm looking forward to hearing from you."}
           phoneNumber="+61402374947"
-        />
+        /> */}
       </div>
 
       <div className={styles.lightBox}>

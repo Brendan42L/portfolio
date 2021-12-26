@@ -2,7 +2,7 @@
   font-size: 4.3em;
   font-weight: 100;
   text-align: center;
-  color: #f7f7f7c2;
+  color: #ffffff;
   letter-spacing: 15px;
   padding: 0 0 0 0;
   z-index: 200;
@@ -97,3 +97,20 @@
   color: rgb(238, 238, 238);
   text-align: center;
 }
+
+
+
+
+@media (max-width: 635px) {
+
+  .header {
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    z-index: 200;
+  }
+
+}
+
+
