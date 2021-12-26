@@ -29,12 +29,34 @@ const Blockchain = () => {
           <li>Node.js</li>
         </ul>
       </div>
+      <hr className={styles.hr}/>
       {actualSlide === 0 ? (
         <p className={styles.text}>
        Content coming soon...
         </p>
       ) : null}
+       <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+          <img
+            className={styles.view}
+            src="images/code.svg"
+            alt="code"
+            width="43"
+            height="auto"
+          />
+        </a>
+        <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+          <img
+            className={styles.view}
+            src="images/binoculars.svg"
+            alt="binoculars"
+            width="43"
+            height="auto"
+          />
+        </a>
+      </div>
         </>
+        
     )
 }
 

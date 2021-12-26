@@ -12,7 +12,7 @@ const Projects = () => {
       <div className={styles.wrapper}>
         
         <div className={styles.card}>
-          
+        
           <Lia />
         </div>
        

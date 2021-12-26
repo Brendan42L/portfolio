@@ -41,6 +41,7 @@ const Lia = () => {
       {actualSlide === 6 ? (
         <h5 className={styles.title}>Employer/Client Directory</h5>
       ) : null}
+
       <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
           <img
@@ -62,6 +63,7 @@ const Lia = () => {
           <li>MongoDb</li>
         </ul>
       </div>
+      <hr className={styles.hr}/>
       {actualSlide === 0 ? (
         <p className={styles.text}>
           A employment/resource website equipped with a admin panel, built in
@@ -70,34 +72,63 @@ const Lia = () => {
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-         A secure way to store employer/client credentials and documentation. A Built in notes widget with notifications to help keep organised and a roster system to create, save and email out weekly rosters.
+          A secure way to store employer/client credentials and documentation. A
+          Built in notes widget with notifications to help keep organised and a
+          roster system to create, save and email out weekly rosters.
         </p>
       ) : null}
       {actualSlide === 2 ? (
         <p className={styles.text}>
-         A blogs directory with regex querying of blog tags, all images are stored in Amazons S3 Bucket. 
+          A blogs directory with regex querying of blog tags, all images are
+          stored in Amazons S3 Bucket.
         </p>
       ) : null}
       {actualSlide === 3 ? (
         <p className={styles.text}>
-        A jobs-board directory for potential employees to apply, a secure sign up form will then be emailed to the recipient automatically. 
+          A jobs-board directory for potential employees to apply, a secure sign
+          up form will then be emailed to the recipient automatically.
         </p>
       ) : null}
       {actualSlide === 4 ? (
         <p className={styles.text}>
-       A fully featured admin panel, from here the owner can draft blog posts and job-posts, look up clients and employees in a beautiful directory, view and update individual profiles.
+          A fully featured admin panel, from here the owner can draft blog posts
+          and job-posts, look up clients and employees in a beautiful directory,
+          view and update individual profiles.
         </p>
       ) : null}
       {actualSlide === 5 ? (
         <p className={styles.text}>
-         A secure json-web token interactive sign up form for clients and employees.
+          A secure json-web token interactive sign up form for clients and
+          employees.
         </p>
       ) : null}
       {actualSlide === 6 ? (
         <p className={styles.text}>
-        A beautiful directory for looking up clients and employees with uncompleted notes notifications.
+          A beautiful directory for looking up clients and employees with
+          uncompleted notes notifications.
         </p>
       ) : null}
+      
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center"}}>
+        <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+          <img
+            className={styles.view}
+            src="images/code.svg"
+            alt="code"
+            width="43"
+            height="auto"
+          />
+        </a>
+        <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+          <img
+            className={styles.view}
+            src="images/binoculars.svg"
+            alt="binoculars"
+            width="43"
+            height="auto"
+          />
+        </a>
+      </div>
     </>
   );
 };

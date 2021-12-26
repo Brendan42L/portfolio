@@ -11,8 +11,9 @@
 
 .card {
   background-color: rgba(255, 255, 255, 0.034);
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  height: 600px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    #3c404326 0px 1px 3px 1px;
+  height: 640px;
   min-width: 320px;
   max-width: 620px;
   width: 100% !important;
@@ -24,7 +25,6 @@
   top: 0;
   transition: top ease 0.5s;
 }
-
 
 .card:hover {
   top: -15px;
@@ -44,7 +44,6 @@
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
-
 
 .tags ul {
   color: #fff;
@@ -84,11 +83,10 @@
   letter-spacing: 1px;
   color: rgb(238, 238, 238);
   padding: 1em;
-  text-align: justify;
+  text-align: center;
   margin: 0 auto;
   line-height: 1.8;
 }
-
 
 .title {
   margin: 0.4em 0;
@@ -99,16 +97,24 @@
   text-align: center;
 }
 
+.view {
+  cursor: pointer;
+  margin: 0.5em 0.5em 0 0.5em;
+  opacity: 0.8;
+}
 
-
+.hr {
+  margin: 0.5em auto;
+  width: 90%;
+  border-color: rgb(219, 219, 219);
+}
 
 @media (max-width: 635px) {
-
   .header {
     font-size: 3em;
     text-align: center;
     letter-spacing: 1px;
-    margin: 0 auto;
+    margin: 0 auto 0.5em auto;
     z-index: 200;
   }
 
@@ -120,7 +126,4 @@
     margin: 2em auto;
     border-radius: 0;
   }
-
 }
-
-
