@@ -29,12 +29,15 @@ const Blockchain = () => {
           <li>Node.js</li>
         </ul>
       </div>
+      <hr className={styles.hr}/>
       {actualSlide === 0 ? (
         <p className={styles.text}>
        Content coming soon...
         </p>
       ) : null}
+      
         </>
+        
     )
 }
 
