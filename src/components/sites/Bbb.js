@@ -28,11 +28,10 @@ const Bbb = () => {
           <li>PHP</li>
         </ul>
       </div>
-      <hr className={styles.hr}/>
       <p className={styles.text}>
          A light and elegant solution for a Beautician business. Built with no frameworks.
         </p>
-       
+        
     </>
   );
 };
