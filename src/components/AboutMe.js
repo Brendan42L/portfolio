@@ -30,11 +30,11 @@ const AboutMe = () => {
   return (
     <>
       <div className={styles.whatsApp}>
-        {/* <WhatsAppWidget
+        <WhatsAppWidget
           companyName={"Brendan Little"}
           message={"Hello, I'm looking forward to hearing from you."}
           phoneNumber="+61402374947"
-        /> */}
+        />
       </div>
 
       <div className={styles.lightBox}>
@@ -52,7 +52,10 @@ const AboutMe = () => {
           <span className={styles.counter}>
             {days} days {hours} hours {minutes} minutes {seconds} seconds
           </span>{" "}
-          since I started teaching myself to code. I was born in Australia but I also hold a British passport, in my previous career I was a Luxury Yacht Captain & Scuba Instructor but I'm now engrossed in the world of code.
+          since I started teaching myself to code. I was born in Australia but I
+          also hold a British passport, in my previous career I was a Luxury
+          Yacht Captain & Scuba Instructor but I'm now engrossed in the world of
+          code.
         </p>
       </div>
     </>

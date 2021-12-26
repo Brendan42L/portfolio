@@ -83,7 +83,7 @@
   font-weight: 300;
   letter-spacing: 1px;
   color: rgb(238, 238, 238);
-  padding: 1em 2em;
+  padding: 1em;
   text-align: justify;
   margin: 0 auto;
 }
@@ -117,6 +117,7 @@
 
   .card {
     margin: 2em auto;
+    border-radius: 0;
   }
 
 }
