@@ -24,24 +24,6 @@
   margin: -4em 0 0em 0;
 }
 
-/* Head */
-
-.me {
-  object-fit: contain;
-  opacity: 0.8;
-  margin: 2em 0 0 0;
-  
-}
-
-
-.me:hover{
-  animation: head 0.5s linear ;
-  animation-fill-mode: forwards;
-  
-}
-
-
-
 
 /* Name */
 
@@ -108,19 +90,36 @@
 
 
 
+.morf {
+  margin-top: 3em;
+  height: 450px;
+  width: 300px;
+  background-image: url("/public/images/me.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-@keyframes head {
+.morf:hover {
+  animation: head2 1s linear ;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+@keyframes head2 {
   from{
     filter: none;
     -webkit-filter: grayscale(0);
+    background-image: url("/public/images/me.png");
   }
   to{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+    background-image: url("/public/images/meOpen.png");
   }
 }
-
-
 
 
 

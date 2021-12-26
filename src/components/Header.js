@@ -6,7 +6,6 @@ const Header = () => {
     <>
       <header className={styles.container}>
         <div className={styles.Innercontainer}>
-         
           <h2>Brendan Little</h2>
           <div id={styles.container}>
             <div id={styles.flip}>
@@ -62,13 +61,7 @@ const Header = () => {
           </div>
         </div>
 
-        <img
-          className={styles.me}
-          src="images/me.png"
-          alt="Brendan Little"
-          width="180"
-          height="auto"
-        />
+        <div className={styles.morf}></div>
       </header>
     </>
   );

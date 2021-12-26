@@ -108,8 +108,6 @@
   border: 0.5px solid rgb(163, 163, 163);
 }
 
-
-
 @media (min-width: 558px) {
   .chevronPostion1 {
     bottom: 50px;
@@ -119,7 +117,6 @@
     bottom: 80px;
   }
 }
-
 
 @media (min-width: 1200px) {
   .background2 {
@@ -131,5 +128,9 @@
   }
   .chevronPostion5 {
     bottom: 50px;
+  }
+
+  .background3 {
+    margin: 4em 0 2em 0;
   }
 }

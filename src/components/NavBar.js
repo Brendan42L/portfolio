@@ -85,7 +85,7 @@ const NavBar = () => {
             to="technologies"
             spy={true}
             smooth={true}
-            offset={-180}
+            offset={-160}
             duration={1000}
             activeClass="activeTec"
           >
