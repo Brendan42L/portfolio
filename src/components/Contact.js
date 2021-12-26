@@ -90,10 +90,7 @@ const Contact = () => {
         <h2 className={styles.headers}>Contact Me</h2>
 
           <p className={styles.text}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          I hope you have enjoyed viewing my portfolio, please go ahead and download by resume below. I very much looking forward to hearing from you.
           </p>
           <h6 className={styles.cv}>Download my resume:</h6>
 

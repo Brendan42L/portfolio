@@ -10,7 +10,7 @@
 }
 
 .headers {
-  font-size: 4.3em;
+  font-size: 4.2em;
   font-weight: 100;
   text-align: center;
   color: #ffffff;
@@ -30,14 +30,14 @@
 }
 
 .text {
-  line-height: 2;
-  text-align: justify;
+  line-height: 1.8;
+  text-align: center;
   font-weight: 400;
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 400px;
+  font-size: 1.1em;
   padding: 0;
   z-index: 2;
-  margin: 1em auto 3em auto;
+  margin: 0.1em auto 3em auto;
 }
 
 .form {
