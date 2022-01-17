@@ -113,19 +113,24 @@
 
 /* form */
 
+
 input[type="text"],
 [type="tel"],
 [type="email"],
 textarea {
   min-width: 300px;
-
-  padding: 12px 0px;
+font-size: 1.1em !important;
+font-weight: 400;
+  padding: 12px 0px 12px 10px;
   margin: 8px auto;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   background-color: rgb(199, 199, 199);
+}
+.textArea {
+  font-size: 1.25em !important;
 }
 
 .submit {

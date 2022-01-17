@@ -116,6 +116,7 @@ const Contact = () => {
           <label>
             <p style={{ color: validation && !name ? "red" : "#FFF" }}>Name:</p>
             <input
+           
               type="text"
               name="name"
               value={name}
@@ -127,6 +128,7 @@ const Contact = () => {
               Email:
             </p>
             <input
+            
               type="email"
               name="email"
               value={email}
@@ -149,6 +151,7 @@ const Contact = () => {
               Message:
             </p>
             <textarea
+             className={styles.textArea}
               rows="8"
               type="text"
               name="message"
