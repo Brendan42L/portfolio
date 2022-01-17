@@ -26,7 +26,7 @@ const Projects = () => {
             height="auto"
           />
         </a>
-        <a href={"https://lia-demo-gi332.ondigitalocean.app"}>
+        <a href={"https://lia-demo-gi332.ondigitalocean.app/signin"}>
           <img
             className={styles.view}
             src="images/binoculars.svg"
