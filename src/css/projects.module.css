@@ -42,8 +42,8 @@
 }
 
 .siteImage {
-  object-fit: cover;
-  max-height: 316px;
+  object-fit: contain;
+  max-height: 380px;
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
