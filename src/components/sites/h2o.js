@@ -21,10 +21,10 @@ const Blockchain = () => {
        <h5 className={styles.title}>Smart Divers</h5>
       ) : null}
       {actualSlide === 1 ? (
-        <h5 className={styles.title}>Employer/Client Profiles</h5>
+        <h5 className={styles.title}>TITLE SLIDE TWO</h5>
       ) : null}
       {actualSlide === 2 ? (
-        <h5 className={styles.title}>Tag Searchable Blogs</h5>
+         <h5 className={styles.title}>TITLE SLIDE THREE</h5>
       ) : null}
              <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
         {SLIDES.map((src) => (
@@ -41,21 +41,17 @@ const Blockchain = () => {
       <hr className={styles.hr}/>
       {actualSlide === 0 ? (
         <p className={styles.text}>
-          A employment/resource website equipped with a admin panel, built in
-          roster creation/mailer, employer/client directory & employer portal.
+          INFO SLIDE ONE
         </p>
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-          A secure way to store employer/client credentials and documentation. A
-          Built in notes widget with notifications to help keep organised and a
-          roster system to create, save and email out weekly rosters.
+          INFO SLIDE TWO
         </p>
       ) : null}
       {actualSlide === 2 ? (
         <p className={styles.text}>
-          A blogs directory with regex querying of blog tags, all images are
-          stored in Amazons S3 Bucket.
+          INFO SLIDE THREE
         </p>
       ) : null}
       
