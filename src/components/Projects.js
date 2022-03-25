@@ -62,7 +62,7 @@ const Projects = () => {
         <div className={styles.card}>
           <Blockchain />
           <div className={styles.viewWrapper}>
-            <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+            <a href={"https://github.com/Brendan42L/blockchain-strippers"}>
               <img
                 className={styles.view}
                 src="images/code.svg"
@@ -71,7 +71,7 @@ const Projects = () => {
                 height="auto"
               />
             </a>
-            <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+            <a href="#">
               <img
                 className={styles.view}
                 src="images/binoculars.svg"
@@ -85,7 +85,7 @@ const Projects = () => {
         <div className={styles.card}>
           <H20 />
           <div className={styles.viewWrapper}>
-            <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+            <a href={"https://github.com/Brendan42L/h20-booking"}>
               <img
                 className={styles.view}
                 src="images/code.svg"
@@ -94,7 +94,7 @@ const Projects = () => {
                 height="auto"
               />
             </a>
-            <a href={"https://bbb-yz3t4.ondigitalocean.app/"}>
+            <a href="#">
               <img
                 className={styles.view}
                 src="images/binoculars.svg"

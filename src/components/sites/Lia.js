@@ -47,7 +47,7 @@ const Lia = () => {
           <img
             className={styles.siteImage}
             width="100%"
-            height="316px"
+            height="350px"
             alt="Job Site"
             key={src}
             src={src}

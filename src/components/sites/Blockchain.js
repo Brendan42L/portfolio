@@ -4,8 +4,8 @@ import styles from "../../css/projects.module.css";
 import "react-slidy/lib/styles.css";
 
 const SLIDES = [
-  "images/slider/stripperOne.jpg",
   "images/slider/stripperTwo.jpg",
+  "images/slider/stripperOne.jpg",
   "images/slider/stripperThree.jpg",
   "images/slider/stripperFour.jpg",
   "images/slider/stripperFive.jpg",
@@ -24,16 +24,14 @@ const Blockchain = () => {
         <h5 className={styles.title}>Blockchain Strippers</h5>
       ) : null}
       {actualSlide === 1 ? (
-        <h5 className={styles.title}>TITLE SLIDE TWO</h5>
+        <h5 className={styles.title}>Advanced Directory</h5>
       ) : null}
       {actualSlide === 2 ? (
-        <h5 className={styles.title}>TITLE SLIDE THREE</h5>
+        <h5 className={styles.title}>Decentralised Booking</h5>
       ) : null}
-      {actualSlide === 3 ? (
-        <h5 className={styles.title}>TITLE SLIDE FOUR</h5>
-      ) : null}
+      {actualSlide === 3 ? <h5 className={styles.title}>Live Chat</h5> : null}
       {actualSlide === 4 ? (
-        <h5 className={styles.title}>TITLE SLIDE FIVE</h5>
+        <h5 className={styles.title}>QR Code Check In</h5>
       ) : null}
 
       <ReactSlidy infiniteLoop doAfterSlide={updateSlide} slide={actualSlide}>
@@ -41,7 +39,7 @@ const Blockchain = () => {
           <img
             className={styles.siteImage}
             width="100%"
-            height="380px"
+            height="350px"
             alt="Job Site"
             key={src}
             src={src}
@@ -49,7 +47,7 @@ const Blockchain = () => {
         ))}
       </ReactSlidy>
       <div className={styles.tags}>
-        <ul className={styles.tags2}>
+        <ul>
           <li>Next.js</li>
           <li>Solidity</li>
           <li>Node.js</li>
@@ -58,16 +56,47 @@ const Blockchain = () => {
         </ul>
       </div>
       <hr className={styles.hr} />
-      {actualSlide === 0 ? <p className={styles.text}>INFO SLIDE ONE</p> : null}
-      {actualSlide === 1 ? <p className={styles.text}>INFO SLIDE TWO</p> : null}
+      {actualSlide === 0 ? (
+        <p className={styles.text}>
+          A first of its kind Dapp for the adult entertainment industry, take
+          advantage of a decentralised booking system using smart contracts to
+          facilitate the holding of deposits, the distribution of funds to
+          models using QR code check in technology as well as weekly lottery
+          with automatic entries.
+        </p>
+      ) : null}
+      {actualSlide === 1 ? (
+        <p className={styles.text}>
+          A secure login and sign up system, a smart model directory using a
+          weighted point system to prioritise models with higher memberships
+          levels or completed QR code check ins it also equiped with advanced
+          search capabilities
+        </p>
+      ) : null}
       {actualSlide === 2 ? (
-        <p className={styles.text}>INFO SLIDE THREE</p>
+        <p className={styles.text}>
+          Each model as the ability to add custom crypto payment buttons to
+          their profile, this Dapp also comes with a unique decentralised
+          booking system which auto calculates deposits and services costs with
+          real time data from an oracle.
+        </p>
       ) : null}
       {actualSlide === 3 ? (
-        <p className={styles.text}>INFO SLIDE FOUR</p>
+        <p className={styles.text}>
+          A live group chat for bookings built using socket technology with
+          email and realtime notifications and the ability to interconnect your
+          profile with other models to streamline the booking process for
+          clients.
+        </p>
       ) : null}
       {actualSlide === 4 ? (
-        <p className={styles.text}>INFO SLIDE FIVE</p>
+        <p className={styles.text}>
+          A booking management system and the ability to apply for jobs using
+          the active jobs-board , 5 major currencies supported with QR code
+          technology for check-ins which triggers payments, the transfer of the
+          deposit and also automated entries into the lottery as a reward
+          incentive for using the system.
+        </p>
       ) : null}
     </>
   );
