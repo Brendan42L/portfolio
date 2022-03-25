@@ -21,9 +21,9 @@ function Technologies() {
             <li>Node.js</li>
             <li>Express</li>
             <li>Solidity</li>
+            <li>Ether.js</li>
             <li>Hardhat</li>
             <li>Mongodb</li>
-            <li>Mysql</li>
             <li id={styles.expander} onClick={openDrawer}>
               {open ? "View Less" : "View More"}
             </li>
@@ -35,7 +35,7 @@ function Technologies() {
             <li>HTML 5</li>
             <li>CSS</li>
             <li>Web3.js</li>
-            <li>Ether.js</li>
+            <li>Mysql</li>
             <li>Material UI</li>
             <li>Git</li>
             <li>Github</li>

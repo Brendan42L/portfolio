@@ -21,7 +21,7 @@ const Blockchain = () => {
   return (
     <>
       {actualSlide === 0 ? (
-        <h5 className={styles.title}>Solidity/Blockchain</h5>
+        <h5 className={styles.title}>Blockchain Strippers</h5>
       ) : null}
       {actualSlide === 1 ? (
         <h5 className={styles.title}>TITLE SLIDE TWO</h5>
@@ -53,6 +53,8 @@ const Blockchain = () => {
           <li>Next.js</li>
           <li>Solidity</li>
           <li>Node.js</li>
+          <li>Sockets</li>
+          <li>MongoDb</li>
         </ul>
       </div>
       <hr className={styles.hr} />

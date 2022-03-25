@@ -8,7 +8,7 @@ import H20 from "../components/sites/h2o";
 const Projects = () => {
   return (
     <>
-      <h2 className={styles.header}>Work</h2>
+      <h2 className={styles.header}>Projects</h2>
       <div className={styles.wrapper}>
         <div className={styles.card}>
           <Lia />
