@@ -21,7 +21,7 @@ function Technologies() {
             <li>Node.js</li>
             <li>Express</li>
             <li>Solidity</li>
-            <li>Ether.js</li>
+            <li>Ethers.js</li>
             <li>Hardhat</li>
             <li>Mongodb</li>
             <li id={styles.expander} onClick={openDrawer}>
