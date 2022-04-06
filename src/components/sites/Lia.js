@@ -63,37 +63,41 @@ const Lia = () => {
           <li>MongoDb</li>
         </ul>
       </div>
-      <hr className={styles.hr}/>
+      <hr className={styles.hr} />
       {actualSlide === 0 ? (
         <p className={styles.text}>
-          A employment/resource website equipped with a admin panel, built in
-          roster creation/mailer, employer/client directory & employer portal.
+          Live in Angels is a recruitment database website I built from scratch
+          equipped with several automated functions including an admin panel,
+          built in rostering system, employer/client directory & employer
+          portal.
         </p>
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-          A secure way to store employer/client credentials and documentation. A
-          Built in notes widget with notifications to help keep organised and a
-          roster system to create, save and email out weekly rosters.
+          The employer/client profiles include; a secure system for storing
+          credentials and documentation, a scheduling system allowing the user
+          to create, save and send out rosters, a built-in notes widget with
+          options for notifications.
         </p>
       ) : null}
       {actualSlide === 2 ? (
         <p className={styles.text}>
-          A blogs directory with regex querying of blog tags, all images are
-          stored in Amazons S3 Bucket.
+          Blog directory with regex querying blog tagging and all images being
+          stored in Amazon S3 Bucket.
         </p>
       ) : null}
       {actualSlide === 3 ? (
         <p className={styles.text}>
-          A jobs-board directory for potential employees to apply, a secure sign
-          up form will then be emailed to the recipient automatically.
+          Jobs advertising board where potential employees can apply with a
+          secure sign-up form and automatically receive email confirmation of
+          application.
         </p>
       ) : null}
       {actualSlide === 4 ? (
         <p className={styles.text}>
-          A fully featured admin panel, from here the owner can draft blog posts
-          and job-posts, look up clients and employees in a beautiful directory,
-          view and update individual profiles.
+          An admin panel allowing the user to post jobs, post blogs, search the
+          directory for clients and employees and view and update individual
+          profiles.
         </p>
       ) : null}
       {actualSlide === 5 ? (
@@ -104,12 +108,10 @@ const Lia = () => {
       ) : null}
       {actualSlide === 6 ? (
         <p className={styles.text}>
-          A beautiful directory for looking up clients and employees with
-          uncompleted notes notifications.
+          A directory for looking up clients and employees with optional
+          notification functions.
         </p>
       ) : null}
-      
-     
     </>
   );
 };

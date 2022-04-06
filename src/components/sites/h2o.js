@@ -49,15 +49,17 @@ const Blockchain = () => {
         <p className={styles.text}>
           Smart Dive Shop Logistics Platform can enable diving operators/shops
           to streamline the booking process for dive courses and fun dives by
-          using real-time data. Multiple shops/staff can make bookings/payments, pick-up times and
-          locations of divers/guests, assigned instructor/guides and securely
-          storing personal information.
+          using real-time data. Multiple shops/staff can make bookings/payments,
+          pick-up times and locations of divers/guests, assigned
+          instructor/guides and securely storing personal information.
         </p>
       ) : null}
       {actualSlide === 1 ? (
         <p className={styles.text}>
-          
-         
+          Detailed client sign up form; automated notifications showing the
+          individual’s documentation required based on the selected activity and
+          divers qualification to ensure compliance with authorising body.
+          Calculates a running total during the sign up process.
         </p>
       ) : null}
       {actualSlide === 2 ? (

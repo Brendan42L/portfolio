@@ -87,10 +87,11 @@ const Contact = () => {
       <div className={styles.twinkling}></div> */}
       <div className={styles.wrapper}>
         <div className={styles.wrapper2}>
-        <h2 className={styles.headers}>Contact Me</h2>
+          <h2 className={styles.headers}>Contact Me</h2>
 
           <p className={styles.text}>
-          I hope you have enjoyed viewing my portfolio, please go ahead and download by resume below. I very much looking forward to hearing from you.
+            I hope you have enjoyed viewing my portfolio, please feel free to
+            download by resume below.
           </p>
           <h6 className={styles.cv}>Download my resume:</h6>
 
@@ -116,7 +117,6 @@ const Contact = () => {
           <label>
             <p style={{ color: validation && !name ? "red" : "#FFF" }}>Name:</p>
             <input
-           
               type="text"
               name="name"
               value={name}
@@ -128,7 +128,6 @@ const Contact = () => {
               Email:
             </p>
             <input
-            
               type="email"
               name="email"
               value={email}
@@ -151,7 +150,7 @@ const Contact = () => {
               Message:
             </p>
             <textarea
-             className={styles.textArea}
+              className={styles.textArea}
               rows="8"
               type="text"
               name="message"

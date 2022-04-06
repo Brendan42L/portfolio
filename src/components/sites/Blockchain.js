@@ -61,7 +61,7 @@ const Blockchain = () => {
           A first of its kind Dapp for the adult entertainment industry, take
           advantage of a decentralised booking system using smart contracts to
           facilitate the holding of deposits, the distribution of funds to
-          models using QR code check in technology as well as weekly lottery
+          models using QR code check in technology as well as a weekly lottery
           with automatic entries.
         </p>
       ) : null}
@@ -69,13 +69,13 @@ const Blockchain = () => {
         <p className={styles.text}>
           A secure login and sign up system, a smart model directory using a
           weighted point system to prioritise models with higher memberships
-          levels or completed QR code check ins it also equiped with advanced
-          search capabilities
+          levels or models with more completed QR code check ins. This page is
+          also equipped with advanced searching capabilities.
         </p>
       ) : null}
       {actualSlide === 2 ? (
         <p className={styles.text}>
-          Each model as the ability to add custom crypto payment buttons to
+          Each model has the ability to add custom crypto payment buttons to
           their profile, this Dapp also comes with a unique decentralised
           booking system which auto calculates deposits and services costs with
           real time data from an oracle.
@@ -92,10 +92,10 @@ const Blockchain = () => {
       {actualSlide === 4 ? (
         <p className={styles.text}>
           A booking management system and the ability to apply for jobs using
-          the active jobs-board , 5 major currencies supported with QR code
-          technology for check-ins which triggers payments, the transfer of the
-          deposit and also automated entries into the lottery as a reward
-          incentive for using the system.
+          the active jobs-board. Once the QR code has been scanned this triggers
+          payments, transfer of deposit and automated entries into the lottery
+          as a reward incentive for using the system. 5 major currencies are
+          supported with QR code technology.
         </p>
       ) : null}
     </>
