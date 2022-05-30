@@ -54,8 +54,7 @@ const AboutMe = () => {
           </span>{" "}
           since I started teaching myself to code. I was born in Australia but
           also hold a British passport. In my previous career I was a Luxury
-          Yacht Captain & Scuba Instructor and I'm now engrossed in the world of
-          code. code.
+          Yacht Captain & Scuba Instructor and I'm now engrossed in the world of code.
         </p>
       </div>
     </>
