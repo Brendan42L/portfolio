@@ -62,7 +62,7 @@ const Projects = () => {
         <div className={styles.card}>
           <Blockchain />
           <div className={styles.viewWrapper}>
-            <a href={"https://github.com/Brendan42L/blockchain-strippers"}>
+            <a href={"https://github.com/Brendan42L/crypto-strippers"}>
               <img
                 className={styles.view}
                 src="images/code.svg"
