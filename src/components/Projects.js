@@ -71,7 +71,7 @@ const Projects = () => {
                 height="auto"
               />
             </a>
-            <a href="#">
+            <a href="https://utopianwebdevelopment.com/portfolio">
               <img
                 className={styles.view}
                 src="images/binoculars.svg"
@@ -94,7 +94,7 @@ const Projects = () => {
                 height="auto"
               />
             </a>
-            <a href="#">
+            <a href="https://utopianwebdevelopment.com/portfolio">
               <img
                 className={styles.view}
                 src="images/binoculars.svg"

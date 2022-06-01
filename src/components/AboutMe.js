@@ -1,18 +1,16 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import styles from "../css/aboutMe.module.css";
 import WhatsAppWidget from "react-whatsapp-widget";
 import "react-whatsapp-widget/dist/index.css";
 
 const AboutMe = () => {
-  const [startTimestamp, setStartTimestamp] = useState("January, 10, 2030");
-
   const [days, setDays] = useState(0);
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
 
   setInterval(() => {
-    setStartTimestamp(timer());
+    timer();
   }, 1000);
 
   const timer = () => {
@@ -54,7 +52,8 @@ const AboutMe = () => {
           </span>{" "}
           since I started teaching myself to code. I was born in Australia but
           also hold a British passport. In my previous career I was a Luxury
-          Yacht Captain & Scuba Instructor and I'm now engrossed in the world of code.
+          Yacht Captain & Scuba Instructor and I'm now engrossed in the world of
+          code.
         </p>
       </div>
     </>
