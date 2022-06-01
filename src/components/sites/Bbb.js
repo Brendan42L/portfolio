@@ -1,4 +1,4 @@
-import { React, useState, useEffect, createContext } from "react";
+import { React, useState} from "react";
 import ReactSlidy from "react-slidy";
 import styles from "../../css/projects.module.css";
 import "react-slidy/lib/styles.css";
